@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="51.65s"
+		durationms="51651"
+		type="root"
+		rid="2848e11525cf6e30"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ankurk"
+		rxversion="9.1.0.0"
+		host="ULTP_774"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/17/2019 6:53:00 PM"
+		timestampiso="2019-06-17T13:23:00"
+		endtime="6/17/2019 6:53:52 PM"
+		timeoutfactor="1"
+		module="CloseAUT">
+		<detail>
+			CloseAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:09.088"
+			timeWallClock="18:53:09"
+			time="00:00.000"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CloseAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:09.105"
+			timeWallClock="18:53:09"
+			time="00:00.000"
+			level="Info"
+			category="Application">
+			<message>
+				Killing application containing item 'AquaDataStudioEvaluation.AquaDataStudioEvaluation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Aqua Data Studio - [Evalu']/titlebar[@accessiblerole='TitleBar']"
+				itempath="titlebar[@accessiblerole='TitleBar']"
+				fullname="ADS_startRepository.AquaDataStudioEvaluation.AquaDataStudioEvaluation"
+				id="905a42f98c434f69bf975202952990bf"
+				timeout="60000"
+				codefile="f:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\CloseAUT.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:51.656"
+			timeWallClock="18:53:52"
+			time="00:00.000"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

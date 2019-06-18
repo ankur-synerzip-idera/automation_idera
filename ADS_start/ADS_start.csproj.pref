@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="ADS_start.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="ADS_start.rxtst" />
+    <Element value="StartAUT.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

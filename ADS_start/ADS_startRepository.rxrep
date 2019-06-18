@@ -1,0 +1,121 @@
+﻿<repository
+id="bfe1f5c2-d1f1-47fa-bd48-de05d85dcaed"
+name="ADS_startRepository">
+	<codegen
+	classname="ADS_startRepository"
+	namespace="ADS_start">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="09521d48-2e8b-451f-ba27-57dec2960a58"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="10dc2930-1f3b-4ee4-9f04-c97c260319fc"
+		isrooted="True"
+		name="LicenseForAquaDataStudio"
+		refpath="/form[@title>'License for Aqua Data Stu']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="e99ad039-0823-4862-9394-de44ea2dfd00"
+			name="LicenseForAquaDataStudio"
+			refimgid="49d9f6f0-8e54-4671-bd3a-c61651ca18e2"
+			refpath="/form[@title>'License for Aqua Data Stu']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'License for Aqua Data Stu']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="187f23b6-7f6f-4a3f-9bea-4848000fe6d8"
+			name="Evaluate"
+			refimgid="d2f80aa8-41d1-4987-a76a-635d83e31e40"
+			refpath="/form[@title>'License for Aqua Data Stu']/container[2]/container/container[2]/container[3]/container[@type='ButtonPanel']/button[@name='fyo']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'License for Aqua Data Stu']/container[2]/container[@name='fyG']//button[@name='fyo']
+			</item>
+			<item
+			addcaps="radiobutton,javaelement"
+			capname="radiobutton"
+			id="9365f044-54a3-43a8-a79d-31c13afa2d79"
+			name="EvaluationIWouldLikeToRequestA1"
+			refimgid="2384f0cd-f0ee-4756-81db-41f08d32a4af"
+			refpath="/form[@title>'License for Aqua Data Stu']/container[1]/container[@type='JPanel']/radiobutton[@name='fyI']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'License for Aqua Data Stu']/container[1]/?/?/radiobutton[@name='fyI']
+			</item>
+			<basepath>
+				/form[@title&gt;'License for Aqua Data Stu']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="2cce129c-63ba-4d14-8126-6d1c4f35948d"
+		isrooted="True"
+		name="AquaDataStudioEvaluation"
+		refimgid="46bf6f03-812a-4418-bd40-85b76d47a1cc"
+		refpath="/form[@title='Aqua Data Studio - [Evaluation]']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="905a42f9-8c43-4f69-bf97-5202952990bf"
+			name="AquaDataStudioEvaluation"
+			refimgid="05d74ff4-5933-4e30-ae92-0577ecc75d94"
+			refpath="/form[@title>'Aqua Data Studio - [Evalu']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Aqua Data Studio - [Evalu']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title&gt;'Aqua Data Studio - [Evalu']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ADS_start"
+      id="d11cedb8-c580-41aa-94ad-047857b60115"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ADS_start"
+      id="d11cedb8-c580-41aa-94ad-047857b60115"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

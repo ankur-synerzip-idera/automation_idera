@@ -1,0 +1,14 @@
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\ADS_start.rxtmg
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\ADS_start.rxtst
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\ADS_start.exe.config
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\ADS_start.xml
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\ADS_start.exe
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\ADS_start.pdb
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\Ranorex.Core.Resolver.dll
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\obj\Debug\ADS_start.csprojResolveAssemblyReference.cache
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\obj\Debug\ADS_start.exe
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\obj\Debug\ADS_start.pdb
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\Ranorex Automation Helpers.dll
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\Ranorex.ReportToPDF.exe
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\Ranorex Automation Helpers.pdb
+F:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\bin\Debug\Ranorex Automation Helpers.xml

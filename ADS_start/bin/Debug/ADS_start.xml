@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ADS_start</name>
+    </assembly>
+    <members>
+        <member name="T:ADS_start.ADS_startRepository">
+            <summary>
+            The class representing the ADS_startRepository element repository.
+            </summary>
+        </member>
+        <member name="M:ADS_start.ADS_startRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the ADS_startRepository element repository.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepository.LicenseForAquaDataStudio">
+            <summary>
+            The LicenseForAquaDataStudio folder.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepository.AquaDataStudioEvaluation">
+            <summary>
+            The AquaDataStudioEvaluation folder.
+            </summary>
+        </member>
+        <member name="T:ADS_start.ADS_startRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder">
+            <summary>
+            The LicenseForAquaDataStudioAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LicenseForAquaDataStudio  folder.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder.LicenseForAquaDataStudio">
+            <summary>
+            The LicenseForAquaDataStudio item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder.LicenseForAquaDataStudioInfo">
+            <summary>
+            The LicenseForAquaDataStudio item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder.Evaluate">
+            <summary>
+            The Evaluate item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder.EvaluateInfo">
+            <summary>
+            The Evaluate item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder.EvaluationIWouldLikeToRequestA1">
+            <summary>
+            The EvaluationIWouldLikeToRequestA1 item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.LicenseForAquaDataStudioAppFolder.EvaluationIWouldLikeToRequestA1Info">
+            <summary>
+            The EvaluationIWouldLikeToRequestA1 item info.
+            </summary>
+        </member>
+        <member name="T:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder">
+            <summary>
+            The AquaDataStudioEvaluationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AquaDataStudioEvaluation  folder.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.AquaDataStudioEvaluation">
+            <summary>
+            The AquaDataStudioEvaluation item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.AquaDataStudioEvaluationInfo">
+            <summary>
+            The AquaDataStudioEvaluation item info.
+            </summary>
+        </member>
+        <member name="T:ADS_start.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:ADS_start.CloseAUT.repo">
+            <summary>
+            Holds an instance of the ADS_startRepository repository.
+            </summary>
+        </member>
+        <member name="M:ADS_start.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ADS_start.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ADS_start.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ADS_start.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ADS_start.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ADS_start.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ADS_start.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:ADS_start.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:ADS_start.Recording1.repo">
+            <summary>
+            Holds an instance of the ADS_startRepository repository.
+            </summary>
+        </member>
+        <member name="M:ADS_start.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ADS_start.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ADS_start.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ADS_start.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ADS_start.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ADS_start.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ADS_start.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:ADS_start.StartAUT.repo">
+            <summary>
+            Holds an instance of the ADS_startRepository repository.
+            </summary>
+        </member>
+        <member name="M:ADS_start.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ADS_start.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ADS_start.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ADS_start.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ADS_start.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ADS_start.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ADS_start.StartAUT.StartAutProcessIDVar_FilePath">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar_FilePath.
+            </summary>
+        </member>
+        <member name="P:ADS_start.StartAUT.Evaluation_Text">
+            <summary>
+            Gets or sets the value of variable Evaluation_Text.
+            </summary>
+        </member>
+        <member name="P:ADS_start.StartAUT.ADS_Title">
+            <summary>
+            Gets or sets the value of variable ADS_Title.
+            </summary>
+        </member>
+        <member name="P:ADS_start.StartAUT.varLicense_Title">
+            <summary>
+            Gets or sets the value of variable varLicense_Title.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

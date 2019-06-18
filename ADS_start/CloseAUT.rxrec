@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="79e2f5ed-08a7-4611-93a8-a4996e86b9bb"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="ADS_start">
+	</codegen>
+	<variables>
+		<var
+		id="bd2dd434-4e7a-4d04-bc42-782fc44146c7"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="False"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="874b1ed4-13e3-424c-a731-d9b087aa84d6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="10000ms"
+		method="KillProcess"
+		optional="False"
+		searchpropertyid="282ab27c-8ccb-4e86-bb15-eefbd000d427">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="905a42f9-8c43-4f69-bf97-5202952990bf"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title&gt;'Aqua Data Studio - [Evalu']/titlebar[@accessiblerole='TitleBar']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="bfe1f5c2-d1f1-47fa-bd48-de05d85dcaed"
+	name="ADS_startRepository"
+	relativepath="ADS_startRepository.rxrep">
+		<codegen
+		classname="ADS_startRepository"
+		namespace="ADS_start">
+		</codegen>
+		<rootfolder
+		id="09521d48-2e8b-451f-ba27-57dec2960a58"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

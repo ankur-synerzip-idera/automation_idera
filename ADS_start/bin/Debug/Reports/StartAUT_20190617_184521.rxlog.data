@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="25.54s"
+		durationms="25543"
+		type="root"
+		rid="13d459b1ac2b52cd"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ankurk"
+		rxversion="9.1.0.0"
+		host="ULTP_774"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/17/2019 6:45:26 PM"
+		timestampiso="2019-06-17T13:15:26"
+		endtime="6/17/2019 6:45:53 PM"
+		timeoutfactor="1"
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:14.562"
+			timeWallClock="18:45:41"
+			time="00:00.000"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar_FilePath, Evaluation_Text, ADS_Title
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:14.581"
+			timeWallClock="18:45:41"
+			time="00:00.000"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files\Aqua Data Studio 20.0 - 64bit\datastudio.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="f:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\StartAUT.cs"
+				codeline="121"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:14.607"
+			timeWallClock="18:45:41"
+			time="00:00.000"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LicenseForAquaDataStudio.EvaluationIWouldLikeToRequestA1' at 10;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'License for Aqua Data Stu']/container[1]/?/?/radiobutton[@name='fyI']"
+				itempath="container[1]/?/?/radiobutton[@name='fyI']"
+				fullname="ADS_startRepository.LicenseForAquaDataStudio.EvaluationIWouldLikeToRequestA1"
+				id="9365f04454a343a8a79d31c13afa2d79"
+				timeout="60000"
+				codefile="f:\Office\Projects\Idera\Automation\ADS\ADS_start\ADS_start\StartAUT.cs"
+				codeline="125"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="00:25.545"
+			timeWallClock="18:45:52"
+			time="00:00.000"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
