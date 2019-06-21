@@ -77,6 +77,42 @@ namespace ADS_start
             set { _WindowsAuthTypeRepo = value; }
         }
 
+        string _serverTypeRepo = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable serverTypeRepo.
+        /// </summary>
+        [TestVariable("f06f87fb-c43e-4190-937c-e634c3eba7a4")]
+        public string serverTypeRepo
+        {
+            get { return _serverTypeRepo; }
+            set { _serverTypeRepo = value; }
+        }
+
+        string _windowTitleRepo = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable windowTitleRepo.
+        /// </summary>
+        [TestVariable("4273f741-de34-4281-9908-4d328ca4a695")]
+        public string windowTitleRepo
+        {
+            get { return _windowTitleRepo; }
+            set { _windowTitleRepo = value; }
+        }
+
+        string _serverType1Repo = "MS SQL Server";
+
+        /// <summary>
+        /// Gets or sets the value of variable serverType1Repo.
+        /// </summary>
+        [TestVariable("ab081ae0-4e16-4a59-bd53-15e319cec3b0")]
+        public string serverType1Repo
+        {
+            get { return _serverType1Repo; }
+            set { _serverType1Repo = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -251,7 +287,6 @@ namespace ADS_start
         {
             RepoItemInfo _aquadatastudioevaluationInfo;
             RepoItemInfo _databaseserverseleInfo;
-            RepoItemInfo _newitemInfo;
 
             /// <summary>
             /// Creates a new AquaDataStudioEvaluation  folder.
@@ -261,7 +296,6 @@ namespace ADS_start
             {
                 _aquadatastudioevaluationInfo = new RepoItemInfo(this, "AquaDataStudioEvaluation", "titlebar[@accessiblerole='TitleBar']", 30000, null, "905a42f9-8c43-4f69-bf97-5202952990bf");
                 _databaseserverseleInfo = new RepoItemInfo(this, "DatabaseServersEle", "container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='fLp']/?/?/treeitem[@text='Local Database Servers']", 30000, null, "134da088-e423-4baf-91a3-d7088f21cea7");
-                _newitemInfo = new RepoItemInfo(this, "NewItem", "element", 30000, null, "c9cdd7df-9304-43f2-b484-8e6ff400ecfc");
             }
 
             /// <summary>
@@ -335,30 +369,6 @@ namespace ADS_start
                     return _databaseserverseleInfo;
                 }
             }
-
-            /// <summary>
-            /// The NewItem item.
-            /// </summary>
-            [RepositoryItem("c9cdd7df-9304-43f2-b484-8e6ff400ecfc")]
-            public virtual Ranorex.Unknown NewItem
-            {
-                get
-                {
-                    return _newitemInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The NewItem item info.
-            /// </summary>
-            [RepositoryItemInfo("c9cdd7df-9304-43f2-b484-8e6ff400ecfc")]
-            public virtual RepoItemInfo NewItemInfo
-            {
-                get
-                {
-                    return _newitemInfo;
-                }
-            }
         }
 
         /// <summary>
@@ -375,13 +385,7 @@ namespace ADS_start
             RepoItemInfo _testconnbtneleInfo;
             RepoItemInfo _saveserverregeleInfo;
             RepoItemInfo _closetestconneleInfo;
-            RepoItemInfo _cancelInfo;
-            RepoItemInfo _servertypelisteleInfo;
-            RepoItemInfo _mssqldatabaseazureInfo;
-            RepoItemInfo _mssqlservereleInfo;
-            RepoItemInfo _containerfssInfo;
-            RepoItemInfo _containerfxvInfo;
-            RepoItemInfo _mountedscriptsInfo;
+            RepoItemInfo _servertypeeleInfo;
 
             /// <summary>
             /// Creates a new Datastudio  folder.
@@ -397,13 +401,7 @@ namespace ADS_start
                 _testconnbtneleInfo = new RepoItemInfo(this, "TestConnBtnEle", "container[@type='Iꅟꎴꏁͦ7for']/?/?/button[@name='fYo']", 30000, null, "25849581-d360-4865-8b2e-5b0895c86adf");
                 _saveserverregeleInfo = new RepoItemInfo(this, "SaveServerRegEle", "container[@type='Iꅟꎴꏁͦ7for']/?/?/button[@name='fxO']", 30000, null, "c8eb4347-55f9-499f-a71b-2a42c1d41100");
                 _closetestconneleInfo = new RepoItemInfo(this, "CloseTestConnEle", "container[@type='JPanel']/container[@type='Iꅟꎴꏁͦ7for']//button[@name='defaultButton']", 30000, null, "bec9ae60-cd28-4dbf-b05b-e71a4ff48d21");
-                _cancelInfo = new RepoItemInfo(this, "Cancel", "container[@type='Iꅟꎴꏁͦ7for']/?/?/button[@name='fxP']", 30000, null, "78734b1f-45d5-4c12-8c34-aa7a84abd4a4");
-                _servertypelisteleInfo = new RepoItemInfo(this, "serverTypeListEle", "?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']", 30000, null, "b74401b5-1bd8-4da7-9a52-7ba47100fa5d");
-                _mssqldatabaseazureInfo = new RepoItemInfo(this, "MSSQLDatabaseAzure", "?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']/listitem[@text='MS SQL Database (Azure)']", 30000, null, "f284b8fb-17cc-43a0-be69-2170272ce3e3");
-                _mssqlservereleInfo = new RepoItemInfo(this, "MSSQLServerEle", "?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']/listitem[@text=$srTypeEle]", 30000, null, "0a1120c9-65b7-4775-8751-edc78ec12dd2");
-                _containerfssInfo = new RepoItemInfo(this, "ContainerFSs", "container[@name='fSs']", 30000, null, "64133332-55f6-4dea-990a-61e5366fbfe3");
-                _containerfxvInfo = new RepoItemInfo(this, "ContainerFXv", "?/?/container[@name='fXv']", 30000, null, "452336e2-9f90-4a40-b4cb-47820d5c9767");
-                _mountedscriptsInfo = new RepoItemInfo(this, "MountedScripts", "?/?/container[@name='fXv']/?/?/text[@caption='Mounted Scripts']", 30000, null, "1d99437a-3a4c-4874-8e78-5c901900689b");
+                _servertypeeleInfo = new RepoItemInfo(this, "serverTypeEle", "?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']/listitem[@text=$serverTypeRepo]", 30000, null, "8acce1c8-3d71-409c-bf2e-d410e1f241df");
             }
 
             /// <summary>
@@ -551,170 +549,26 @@ namespace ADS_start
             }
 
             /// <summary>
-            /// The Cancel item.
+            /// The serverTypeEle item.
             /// </summary>
-            [RepositoryItem("78734b1f-45d5-4c12-8c34-aa7a84abd4a4")]
-            public virtual Ranorex.Button Cancel
+            [RepositoryItem("8acce1c8-3d71-409c-bf2e-d410e1f241df")]
+            public virtual Ranorex.ListItem serverTypeEle
             {
                 get
                 {
-                    return _cancelInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _servertypeeleInfo.CreateAdapter<Ranorex.ListItem>(true);
                 }
             }
 
             /// <summary>
-            /// The Cancel item info.
+            /// The serverTypeEle item info.
             /// </summary>
-            [RepositoryItemInfo("78734b1f-45d5-4c12-8c34-aa7a84abd4a4")]
-            public virtual RepoItemInfo CancelInfo
+            [RepositoryItemInfo("8acce1c8-3d71-409c-bf2e-d410e1f241df")]
+            public virtual RepoItemInfo serverTypeEleInfo
             {
                 get
                 {
-                    return _cancelInfo;
-                }
-            }
-
-            /// <summary>
-            /// The serverTypeListEle item.
-            /// </summary>
-            [RepositoryItem("b74401b5-1bd8-4da7-9a52-7ba47100fa5d")]
-            public virtual Ranorex.List serverTypeListEle
-            {
-                get
-                {
-                    return _servertypelisteleInfo.CreateAdapter<Ranorex.List>(true);
-                }
-            }
-
-            /// <summary>
-            /// The serverTypeListEle item info.
-            /// </summary>
-            [RepositoryItemInfo("b74401b5-1bd8-4da7-9a52-7ba47100fa5d")]
-            public virtual RepoItemInfo serverTypeListEleInfo
-            {
-                get
-                {
-                    return _servertypelisteleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MSSQLDatabaseAzure item.
-            /// </summary>
-            [RepositoryItem("f284b8fb-17cc-43a0-be69-2170272ce3e3")]
-            public virtual Ranorex.ListItem MSSQLDatabaseAzure
-            {
-                get
-                {
-                    return _mssqldatabaseazureInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MSSQLDatabaseAzure item info.
-            /// </summary>
-            [RepositoryItemInfo("f284b8fb-17cc-43a0-be69-2170272ce3e3")]
-            public virtual RepoItemInfo MSSQLDatabaseAzureInfo
-            {
-                get
-                {
-                    return _mssqldatabaseazureInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MSSQLServerEle item.
-            /// </summary>
-            [RepositoryItem("0a1120c9-65b7-4775-8751-edc78ec12dd2")]
-            public virtual Ranorex.ListItem MSSQLServerEle
-            {
-                get
-                {
-                    return _mssqlservereleInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MSSQLServerEle item info.
-            /// </summary>
-            [RepositoryItemInfo("0a1120c9-65b7-4775-8751-edc78ec12dd2")]
-            public virtual RepoItemInfo MSSQLServerEleInfo
-            {
-                get
-                {
-                    return _mssqlservereleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ContainerFSs item.
-            /// </summary>
-            [RepositoryItem("64133332-55f6-4dea-990a-61e5366fbfe3")]
-            public virtual Ranorex.Container ContainerFSs
-            {
-                get
-                {
-                    return _containerfssInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ContainerFSs item info.
-            /// </summary>
-            [RepositoryItemInfo("64133332-55f6-4dea-990a-61e5366fbfe3")]
-            public virtual RepoItemInfo ContainerFSsInfo
-            {
-                get
-                {
-                    return _containerfssInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ContainerFXv item.
-            /// </summary>
-            [RepositoryItem("452336e2-9f90-4a40-b4cb-47820d5c9767")]
-            public virtual Ranorex.Container ContainerFXv
-            {
-                get
-                {
-                    return _containerfxvInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ContainerFXv item info.
-            /// </summary>
-            [RepositoryItemInfo("452336e2-9f90-4a40-b4cb-47820d5c9767")]
-            public virtual RepoItemInfo ContainerFXvInfo
-            {
-                get
-                {
-                    return _containerfxvInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MountedScripts item.
-            /// </summary>
-            [RepositoryItem("1d99437a-3a4c-4874-8e78-5c901900689b")]
-            public virtual Ranorex.Text MountedScripts
-            {
-                get
-                {
-                    return _mountedscriptsInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MountedScripts item info.
-            /// </summary>
-            [RepositoryItemInfo("1d99437a-3a4c-4874-8e78-5c901900689b")]
-            public virtual RepoItemInfo MountedScriptsInfo
-            {
-                get
-                {
-                    return _mountedscriptsInfo;
+                    return _servertypeeleInfo;
                 }
             }
 
@@ -752,20 +606,12 @@ namespace ADS_start
         [RepositoryFolder("5ce8ad34-b2a1-4077-bd81-84cf5b154ccf")]
         public partial class ContainerFYsFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _servernameeleInfo;
-            RepoItemInfo _hostnameele1Info;
             RepoItemInfo _comboauthtypeeleInfo;
-            RepoItemInfo _loginnameInfo;
             RepoItemInfo _loginpwdeleInfo;
             RepoItemInfo _logintxteleInfo;
-            RepoItemInfo _drivecombodropbtneleInfo;
             RepoItemInfo _combodrivereleInfo;
-            RepoItemInfo _jtextfield1Info;
-            RepoItemInfo _textecInfo;
-            RepoItemInfo _passwordInfo;
-            RepoItemInfo _jtextfield2Info;
             RepoItemInfo _hostnameeleInfo;
-            RepoItemInfo _jpanelInfo;
+            RepoItemInfo _nameservereleInfo;
 
             /// <summary>
             /// Creates a new ContainerFYs  folder.
@@ -773,20 +619,12 @@ namespace ADS_start
             public ContainerFYsFolder(RepoGenBaseFolder parentFolder) :
                     base("ContainerFYs", "container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']", parentFolder, 30000, null, false, "5ce8ad34-b2a1-4077-bd81-84cf5b154ccf", "")
             {
-                _servernameeleInfo = new RepoItemInfo(this, "serverNameEle", ".//container[@name='gcl']/?/?/text[@name='ec']", 30000, null, "283203c7-9039-422c-8288-02ca3f152992");
-                _hostnameele1Info = new RepoItemInfo(this, "hostNameEle1", ".//container[@name='gfT']/text[@caption>' host OR host\\named_insta']", 30000, null, "a3db2383-3fda-4f0d-a304-6bdfa79bac3c");
                 _comboauthtypeeleInfo = new RepoItemInfo(this, "ComboAuthTypeEle", ".//container[@type='Pꈘᜬᛌᝊtransient5']/?/?/combobox[@name='eXC']", 30000, null, "c3cec3c5-dc17-4c1d-b8af-a5582580e068");
-                _loginnameInfo = new RepoItemInfo(this, "LoginName", ".//container[@type='Pꈘᜬᛌᝊtransient5']/?/?/text[@caption='Login Name:']", 30000, null, "558e00ad-b5f4-4de9-9b19-b74899689dff");
                 _loginpwdeleInfo = new RepoItemInfo(this, "LoginPwdEle", ".//container[@type='Pꈘᜬᛌᝊtransient5']/?/?/text[@type='JPasswordField']", 30000, null, "4f9346da-db00-451c-ae3b-49ea11626fc4");
                 _logintxteleInfo = new RepoItemInfo(this, "LoginTxtEle", ".//container[@type='Pꈘᜬᛌᝊtransient5']/?/?/text[@type='JTextField']", 30000, null, "0e4df0ae-1d62-4eca-86db-5aec59a7857f");
-                _drivecombodropbtneleInfo = new RepoItemInfo(this, "driveComboDropBtnEle", ".//container[@name='gfP']/?/?/combobox[@name='gfH']/button[@text='']", 30000, null, "05cd800d-b6ed-4909-9e9c-841fd0b9e6ef");
                 _combodrivereleInfo = new RepoItemInfo(this, "comboDriverEle", ".//container[@name='gfP']/?/?/combobox[@name='gfH']", 30000, null, "63f55ca4-4abc-46c4-96f5-35c52925373a");
-                _jtextfield1Info = new RepoItemInfo(this, "JTextField1", ".//container[@type='z⠰ꆁꉊꂐ']/?/?/text[@type='JTextField']", 30000, null, "7e5f9607-6e54-44b1-b172-41b9a3877ac1");
-                _textecInfo = new RepoItemInfo(this, "TextEc", ".//container[@type='N⣏ꌢ̤ꅒfor']/?/?/text[@name='ec']", 30000, null, "5425c332-2f85-4618-afa7-075df9de85d6");
-                _passwordInfo = new RepoItemInfo(this, "Password", ".//container[@type='Pꈘᜬᛌᝊtransient5']/?/?/text[@caption='Password:']", 30000, null, "0a07913f-c104-4a3a-9a0c-3104a320c8ab");
-                _jtextfield2Info = new RepoItemInfo(this, "JTextField2", ".//container[@type='n⠩ꑽꃒꑖtransient8']/?/?/text[@type='JTextField']", 30000, null, "2268c5da-5caf-4db0-81d0-4f2bfcde18c0");
                 _hostnameeleInfo = new RepoItemInfo(this, "hostNameEle", ".//container[@name='gfT']/text[@name='_actualComponent']", 30000, null, "babc60d0-c366-4a1d-93ce-0f01c99858bf");
-                _jpanelInfo = new RepoItemInfo(this, "JPanel", "?/?/container[@type='JPanel']", 30000, null, "2d2f29b9-11c6-44ec-b377-03ca982572d9");
+                _nameservereleInfo = new RepoItemInfo(this, "NameServerEle", ".//container[@name='fYq']/?/?/text[@name='ec']", 30000, null, "39ab3480-210a-42ed-8a7c-7285b2571707");
             }
 
             /// <summary>
@@ -814,54 +652,6 @@ namespace ADS_start
             }
 
             /// <summary>
-            /// The serverNameEle item.
-            /// </summary>
-            [RepositoryItem("283203c7-9039-422c-8288-02ca3f152992")]
-            public virtual Ranorex.Text serverNameEle
-            {
-                get
-                {
-                    return _servernameeleInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The serverNameEle item info.
-            /// </summary>
-            [RepositoryItemInfo("283203c7-9039-422c-8288-02ca3f152992")]
-            public virtual RepoItemInfo serverNameEleInfo
-            {
-                get
-                {
-                    return _servernameeleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The hostNameEle1 item.
-            /// </summary>
-            [RepositoryItem("a3db2383-3fda-4f0d-a304-6bdfa79bac3c")]
-            public virtual Ranorex.Text hostNameEle1
-            {
-                get
-                {
-                    return _hostnameele1Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The hostNameEle1 item info.
-            /// </summary>
-            [RepositoryItemInfo("a3db2383-3fda-4f0d-a304-6bdfa79bac3c")]
-            public virtual RepoItemInfo hostNameEle1Info
-            {
-                get
-                {
-                    return _hostnameele1Info;
-                }
-            }
-
-            /// <summary>
             /// The ComboAuthTypeEle item.
             /// </summary>
             [RepositoryItem("c3cec3c5-dc17-4c1d-b8af-a5582580e068")]
@@ -882,30 +672,6 @@ namespace ADS_start
                 get
                 {
                     return _comboauthtypeeleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The LoginName item.
-            /// </summary>
-            [RepositoryItem("558e00ad-b5f4-4de9-9b19-b74899689dff")]
-            public virtual Ranorex.Text LoginName
-            {
-                get
-                {
-                    return _loginnameInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The LoginName item info.
-            /// </summary>
-            [RepositoryItemInfo("558e00ad-b5f4-4de9-9b19-b74899689dff")]
-            public virtual RepoItemInfo LoginNameInfo
-            {
-                get
-                {
-                    return _loginnameInfo;
                 }
             }
 
@@ -958,30 +724,6 @@ namespace ADS_start
             }
 
             /// <summary>
-            /// The driveComboDropBtnEle item.
-            /// </summary>
-            [RepositoryItem("05cd800d-b6ed-4909-9e9c-841fd0b9e6ef")]
-            public virtual Ranorex.Button driveComboDropBtnEle
-            {
-                get
-                {
-                    return _drivecombodropbtneleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The driveComboDropBtnEle item info.
-            /// </summary>
-            [RepositoryItemInfo("05cd800d-b6ed-4909-9e9c-841fd0b9e6ef")]
-            public virtual RepoItemInfo driveComboDropBtnEleInfo
-            {
-                get
-                {
-                    return _drivecombodropbtneleInfo;
-                }
-            }
-
-            /// <summary>
             /// The comboDriverEle item.
             /// </summary>
             [RepositoryItem("63f55ca4-4abc-46c4-96f5-35c52925373a")]
@@ -1002,102 +744,6 @@ namespace ADS_start
                 get
                 {
                     return _combodrivereleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The JTextField1 item.
-            /// </summary>
-            [RepositoryItem("7e5f9607-6e54-44b1-b172-41b9a3877ac1")]
-            public virtual Ranorex.Text JTextField1
-            {
-                get
-                {
-                    return _jtextfield1Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The JTextField1 item info.
-            /// </summary>
-            [RepositoryItemInfo("7e5f9607-6e54-44b1-b172-41b9a3877ac1")]
-            public virtual RepoItemInfo JTextField1Info
-            {
-                get
-                {
-                    return _jtextfield1Info;
-                }
-            }
-
-            /// <summary>
-            /// The TextEc item.
-            /// </summary>
-            [RepositoryItem("5425c332-2f85-4618-afa7-075df9de85d6")]
-            public virtual Ranorex.Text TextEc
-            {
-                get
-                {
-                    return _textecInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TextEc item info.
-            /// </summary>
-            [RepositoryItemInfo("5425c332-2f85-4618-afa7-075df9de85d6")]
-            public virtual RepoItemInfo TextEcInfo
-            {
-                get
-                {
-                    return _textecInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Password item.
-            /// </summary>
-            [RepositoryItem("0a07913f-c104-4a3a-9a0c-3104a320c8ab")]
-            public virtual Ranorex.Text Password
-            {
-                get
-                {
-                    return _passwordInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Password item info.
-            /// </summary>
-            [RepositoryItemInfo("0a07913f-c104-4a3a-9a0c-3104a320c8ab")]
-            public virtual RepoItemInfo PasswordInfo
-            {
-                get
-                {
-                    return _passwordInfo;
-                }
-            }
-
-            /// <summary>
-            /// The JTextField2 item.
-            /// </summary>
-            [RepositoryItem("2268c5da-5caf-4db0-81d0-4f2bfcde18c0")]
-            public virtual Ranorex.Text JTextField2
-            {
-                get
-                {
-                    return _jtextfield2Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The JTextField2 item info.
-            /// </summary>
-            [RepositoryItemInfo("2268c5da-5caf-4db0-81d0-4f2bfcde18c0")]
-            public virtual RepoItemInfo JTextField2Info
-            {
-                get
-                {
-                    return _jtextfield2Info;
                 }
             }
 
@@ -1126,26 +772,26 @@ namespace ADS_start
             }
 
             /// <summary>
-            /// The JPanel item.
+            /// The NameServerEle item.
             /// </summary>
-            [RepositoryItem("2d2f29b9-11c6-44ec-b377-03ca982572d9")]
-            public virtual Ranorex.Container JPanel
+            [RepositoryItem("39ab3480-210a-42ed-8a7c-7285b2571707")]
+            public virtual Ranorex.Text NameServerEle
             {
                 get
                 {
-                    return _jpanelInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _nameservereleInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The JPanel item info.
+            /// The NameServerEle item info.
             /// </summary>
-            [RepositoryItemInfo("2d2f29b9-11c6-44ec-b377-03ca982572d9")]
-            public virtual RepoItemInfo JPanelInfo
+            [RepositoryItemInfo("39ab3480-210a-42ed-8a7c-7285b2571707")]
+            public virtual RepoItemInfo NameServerEleInfo
             {
                 get
                 {
-                    return _jpanelInfo;
+                    return _nameservereleInfo;
                 }
             }
         }
@@ -1156,8 +802,6 @@ namespace ADS_start
         [RepositoryFolder("341885ab-20f8-43d1-aa7c-9792e2c05866")]
         public partial class ComboBoxListFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _microsofteleInfo;
-            RepoItemInfo _windowssinglesignonInfo;
             RepoItemInfo _jtdsdrivereleInfo;
             RepoItemInfo _authtypeeleInfo;
 
@@ -1167,8 +811,6 @@ namespace ADS_start
             public ComboBoxListFolder(RepoGenBaseFolder parentFolder) :
                     base("ComboBoxList", ".//container[@name='viewport']/list[@name='ComboBox.list']", parentFolder, 30000, null, false, "341885ab-20f8-43d1-aa7c-9792e2c05866", "")
             {
-                _microsofteleInfo = new RepoItemInfo(this, "MicrosoftEle", "listitem[@text='Microsoft']", 30000, null, "4608a88a-1037-478b-b052-a693b7ed64d8");
-                _windowssinglesignonInfo = new RepoItemInfo(this, "WindowsSingleSignOn", "listitem[@text='Windows Single Sign-On']", 30000, null, "a036c9ed-afed-482e-8631-d72cadd0991b");
                 _jtdsdrivereleInfo = new RepoItemInfo(this, "JTDSDriverEle", "listitem[@text='jTDS']", 30000, null, "d13b784d-77e1-4524-b36a-c092a9174f31");
                 _authtypeeleInfo = new RepoItemInfo(this, "AuthTypeEle", "listitem[@text=$WindowsAuthTypeRepo]", 30000, null, "1a4048a2-a48f-41c4-b9c8-943fe2d2e450");
             }
@@ -1194,54 +836,6 @@ namespace ADS_start
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MicrosoftEle item.
-            /// </summary>
-            [RepositoryItem("4608a88a-1037-478b-b052-a693b7ed64d8")]
-            public virtual Ranorex.ListItem MicrosoftEle
-            {
-                get
-                {
-                    return _microsofteleInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MicrosoftEle item info.
-            /// </summary>
-            [RepositoryItemInfo("4608a88a-1037-478b-b052-a693b7ed64d8")]
-            public virtual RepoItemInfo MicrosoftEleInfo
-            {
-                get
-                {
-                    return _microsofteleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The WindowsSingleSignOn item.
-            /// </summary>
-            [RepositoryItem("a036c9ed-afed-482e-8631-d72cadd0991b")]
-            public virtual Ranorex.ListItem WindowsSingleSignOn
-            {
-                get
-                {
-                    return _windowssinglesignonInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The WindowsSingleSignOn item info.
-            /// </summary>
-            [RepositoryItemInfo("a036c9ed-afed-482e-8631-d72cadd0991b")]
-            public virtual RepoItemInfo WindowsSingleSignOnInfo
-            {
-                get
-                {
-                    return _windowssinglesignonInfo;
                 }
             }
 
@@ -1301,8 +895,6 @@ namespace ADS_start
         public partial class JPanelFolder : RepoGenBaseFolder
         {
             RepoItemInfo _successconntodbeleInfo;
-            RepoItemInfo _yourserverisacceptingsocketconnectiInfo;
-            RepoItemInfo _successfullyconnectedtodatabaseusingInfo;
 
             /// <summary>
             /// Creates a new JPanel  folder.
@@ -1311,8 +903,6 @@ namespace ADS_start
                     base("JPanel", "container[@type='JPanel']", parentFolder, 30000, null, false, "da1c9984-be94-4ea0-a3e1-8db07d76f1f9", "")
             {
                 _successconntodbeleInfo = new RepoItemInfo(this, "SuccessConnToDbEle", ".//text[@caption>'Successfully Connected to']", 30000, null, "11f9c4cd-16fa-4342-8d2f-6e7a0a1a854a");
-                _yourserverisacceptingsocketconnectiInfo = new RepoItemInfo(this, "YourServerIsAcceptingSocketConnecti", "?/?/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/?/?/body/table[1]/tr/td[2]/tag[@innertext>'Your server is accepting socket']", 30000, null, "db770779-1eb8-41b6-828e-2ff9e9ddb50e");
-                _successfullyconnectedtodatabaseusingInfo = new RepoItemInfo(this, "SuccessfullyConnectedToDatabaseUsing", "?/?/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/?/?/body/table[2]/tr/td[2]/tag[@innertext>'Successfully connected to']", 30000, null, "f7691480-d0d2-40c0-b597-4c5dbd10da32");
             }
 
             /// <summary>
@@ -1360,54 +950,6 @@ namespace ADS_start
                 get
                 {
                     return _successconntodbeleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The YourServerIsAcceptingSocketConnecti item.
-            /// </summary>
-            [RepositoryItem("db770779-1eb8-41b6-828e-2ff9e9ddb50e")]
-            public virtual Ranorex.WebElement YourServerIsAcceptingSocketConnecti
-            {
-                get
-                {
-                    return _yourserverisacceptingsocketconnectiInfo.CreateAdapter<Ranorex.WebElement>(true);
-                }
-            }
-
-            /// <summary>
-            /// The YourServerIsAcceptingSocketConnecti item info.
-            /// </summary>
-            [RepositoryItemInfo("db770779-1eb8-41b6-828e-2ff9e9ddb50e")]
-            public virtual RepoItemInfo YourServerIsAcceptingSocketConnectiInfo
-            {
-                get
-                {
-                    return _yourserverisacceptingsocketconnectiInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SuccessfullyConnectedToDatabaseUsing item.
-            /// </summary>
-            [RepositoryItem("f7691480-d0d2-40c0-b597-4c5dbd10da32")]
-            public virtual Ranorex.WebElement SuccessfullyConnectedToDatabaseUsing
-            {
-                get
-                {
-                    return _successfullyconnectedtodatabaseusingInfo.CreateAdapter<Ranorex.WebElement>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SuccessfullyConnectedToDatabaseUsing item info.
-            /// </summary>
-            [RepositoryItemInfo("f7691480-d0d2-40c0-b597-4c5dbd10da32")]
-            public virtual RepoItemInfo SuccessfullyConnectedToDatabaseUsingInfo
-            {
-                get
-                {
-                    return _successfullyconnectedtodatabaseusingInfo;
                 }
             }
         }

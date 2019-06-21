@@ -44,21 +44,19 @@ namespace ADS_start.UserCodeModules
         }
         
         
-        string _serverNameVar = "";
         [TestVariable("4ab6b51c-db37-4639-ba7e-4471493cb9c5")]
         public string serverNameVar
         {
-        	get { return _serverNameVar; }
-        	set { _serverNameVar = value; }
+        	get { return myRepo.windowTitleRepo; }
+        	set { myRepo.windowTitleRepo = value; }
         }
         
         
-        string _serverTypeVar = "";
         [TestVariable("30de2f7f-f4d9-4fcb-8fcd-cfabbfeda827")]
         public string serverTypeVar
         {
-        	get { return _serverTypeVar; }
-        	set { _serverTypeVar = value; }
+        	get { return myRepo.serverTypeRepo;}
+        	set { myRepo.serverTypeRepo  = value; }
         }
         
         
@@ -70,7 +68,6 @@ namespace ADS_start.UserCodeModules
         	set { _driverTypeVar = value; }
         }
         
-        string _AuthTypeVar = "";
         [TestVariable("6b81950f-a362-4373-9d7b-4f244037a1aa")]
         public string AuthTypeVar
         {
@@ -132,13 +129,12 @@ namespace ADS_start.UserCodeModules
              
              
              // Click register server link
-             var registerServerLink = myRepo.Datastudio.RegisterServerEle;
-             registerServerLink.Click();
+             myRepo.Datastudio.RegisterServerEle.Click();
              
+              Delay.Duration(1000);  
              
              // Select server Type
-			ListItem elem="/form[@processname='datastudio']/?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']/listitem[@text='"+serverTypeVar+"']";
-			elem.Click();             
+             myRepo.Datastudio.serverTypeEle.Click();
            
              
              Delay.Duration(1000);             
@@ -152,9 +148,8 @@ namespace ADS_start.UserCodeModules
             	Report.Failure("Validation","Invalid window!!!");
             }
             
-            var txt="/form[@title>'"+regWindowTitleVar+"']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@name='fYq']/?/?/text[@name='ec']";
-            ((Ranorex.Text)txt).Click();
-            ((Ranorex.Text)txt).TextValue=serverNameVar;
+            myRepo.Datastudio.ContainerFYs.NameServerEle.Click();
+           myRepo.Datastudio.ContainerFYs.NameServerEle.TextValue=serverNameVar;
 
          
 

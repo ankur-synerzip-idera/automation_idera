@@ -155,18 +155,6 @@
     <Compile Include="Program.cs">
       <id>2bb63732-2414-4b2c-a5ce-6dad79726aa1</id>
     </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>2a93f422-5de1-46a7-ad09-4117d00ef76e</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>961eda36-b362-48d0-8d0b-76c3e55d54a5</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>2a93f422-5de1-46a7-ad09-4117d00ef76e</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>fe2e5e49-2e8c-43c9-a361-af22e95b8ba0</id>
-    </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>e30f17e4-0be4-4bf9-818a-45d2bc6fbd84</BoundTo>
       <DependentUpon>StartAUT.rxrec</DependentUpon>
@@ -217,11 +205,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>4f925513-9ff5-4112-bed6-ea8a7aae29c2</id>
     </Content>
-    <None Include="Recording1.rxrec">
-      <BoundTo>10a1e1e2-4b7e-460d-b6aa-dedbe19e0795</BoundTo>
-      <id>2a93f422-5de1-46a7-ad09-4117d00ef76e</id>
-      <recordtableid>046416c2-680f-453d-90c2-bae71ba68164</recordtableid>
-    </None>
     <None Include="StartAUT.rxrec">
       <BoundTo>10a1e1e2-4b7e-460d-b6aa-dedbe19e0795</BoundTo>
       <id>e30f17e4-0be4-4bf9-818a-45d2bc6fbd84</id>

@@ -29,6 +29,21 @@
             Gets or sets the value of variable WindowsAuthTypeRepo.
             </summary>
         </member>
+        <member name="P:ADS_start.ADS_startRepository.serverTypeRepo">
+            <summary>
+            Gets or sets the value of variable serverTypeRepo.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepository.windowTitleRepo">
+            <summary>
+            Gets or sets the value of variable windowTitleRepo.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepository.serverType1Repo">
+            <summary>
+            Gets or sets the value of variable serverType1Repo.
+            </summary>
+        </member>
         <member name="P:ADS_start.ADS_startRepository.SelfInfo">
             <summary>
             The Self item info.
@@ -144,16 +159,6 @@
             The DatabaseServersEle item info.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.NewItem">
-            <summary>
-            The NewItem item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.NewItemInfo">
-            <summary>
-            The NewItem item info.
-            </summary>
-        </member>
         <member name="T:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder">
             <summary>
             The DatastudioAppFolder folder.
@@ -224,74 +229,14 @@
             The CloseTestConnEle item info.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.Cancel">
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.serverTypeEle">
             <summary>
-            The Cancel item.
+            The serverTypeEle item.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.CancelInfo">
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.serverTypeEleInfo">
             <summary>
-            The Cancel item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.serverTypeListEle">
-            <summary>
-            The serverTypeListEle item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.serverTypeListEleInfo">
-            <summary>
-            The serverTypeListEle item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.MSSQLDatabaseAzure">
-            <summary>
-            The MSSQLDatabaseAzure item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.MSSQLDatabaseAzureInfo">
-            <summary>
-            The MSSQLDatabaseAzure item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.MSSQLServerEle">
-            <summary>
-            The MSSQLServerEle item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.MSSQLServerEleInfo">
-            <summary>
-            The MSSQLServerEle item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ContainerFSs">
-            <summary>
-            The ContainerFSs item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ContainerFSsInfo">
-            <summary>
-            The ContainerFSs item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ContainerFXv">
-            <summary>
-            The ContainerFXv item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ContainerFXvInfo">
-            <summary>
-            The ContainerFXv item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.MountedScripts">
-            <summary>
-            The MountedScripts item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.MountedScriptsInfo">
-            <summary>
-            The MountedScripts item info.
+            The serverTypeEle item info.
             </summary>
         </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ContainerFYs">
@@ -329,26 +274,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.serverNameEle">
-            <summary>
-            The serverNameEle item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.serverNameEleInfo">
-            <summary>
-            The serverNameEle item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.hostNameEle1">
-            <summary>
-            The hostNameEle1 item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.hostNameEle1Info">
-            <summary>
-            The hostNameEle1 item info.
-            </summary>
-        </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.ComboAuthTypeEle">
             <summary>
             The ComboAuthTypeEle item.
@@ -357,16 +282,6 @@
         <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.ComboAuthTypeEleInfo">
             <summary>
             The ComboAuthTypeEle item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.LoginName">
-            <summary>
-            The LoginName item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.LoginNameInfo">
-            <summary>
-            The LoginName item info.
             </summary>
         </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.LoginPwdEle">
@@ -389,16 +304,6 @@
             The LoginTxtEle item info.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.driveComboDropBtnEle">
-            <summary>
-            The driveComboDropBtnEle item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.driveComboDropBtnEleInfo">
-            <summary>
-            The driveComboDropBtnEle item info.
-            </summary>
-        </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.comboDriverEle">
             <summary>
             The comboDriverEle item.
@@ -407,46 +312,6 @@
         <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.comboDriverEleInfo">
             <summary>
             The comboDriverEle item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.JTextField1">
-            <summary>
-            The JTextField1 item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.JTextField1Info">
-            <summary>
-            The JTextField1 item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.TextEc">
-            <summary>
-            The TextEc item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.TextEcInfo">
-            <summary>
-            The TextEc item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.Password">
-            <summary>
-            The Password item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.PasswordInfo">
-            <summary>
-            The Password item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.JTextField2">
-            <summary>
-            The JTextField2 item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.JTextField2Info">
-            <summary>
-            The JTextField2 item info.
             </summary>
         </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.hostNameEle">
@@ -459,14 +324,14 @@
             The hostNameEle item info.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.JPanel">
+        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.NameServerEle">
             <summary>
-            The JPanel item.
+            The NameServerEle item.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.JPanelInfo">
+        <member name="P:ADS_start.ADS_startRepositoryFolders.ContainerFYsFolder.NameServerEleInfo">
             <summary>
-            The JPanel item info.
+            The NameServerEle item info.
             </summary>
         </member>
         <member name="T:ADS_start.ADS_startRepositoryFolders.ComboBoxListFolder">
@@ -487,26 +352,6 @@
         <member name="P:ADS_start.ADS_startRepositoryFolders.ComboBoxListFolder.SelfInfo">
             <summary>
             The Self item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ComboBoxListFolder.MicrosoftEle">
-            <summary>
-            The MicrosoftEle item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ComboBoxListFolder.MicrosoftEleInfo">
-            <summary>
-            The MicrosoftEle item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ComboBoxListFolder.WindowsSingleSignOn">
-            <summary>
-            The WindowsSingleSignOn item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.ComboBoxListFolder.WindowsSingleSignOnInfo">
-            <summary>
-            The WindowsSingleSignOn item info.
             </summary>
         </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.ComboBoxListFolder.JTDSDriverEle">
@@ -559,26 +404,6 @@
             The SuccessConnToDbEle item info.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.JPanelFolder.YourServerIsAcceptingSocketConnecti">
-            <summary>
-            The YourServerIsAcceptingSocketConnecti item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.JPanelFolder.YourServerIsAcceptingSocketConnectiInfo">
-            <summary>
-            The YourServerIsAcceptingSocketConnecti item info.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.JPanelFolder.SuccessfullyConnectedToDatabaseUsing">
-            <summary>
-            The SuccessfullyConnectedToDatabaseUsing item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.JPanelFolder.SuccessfullyConnectedToDatabaseUsingInfo">
-            <summary>
-            The SuccessfullyConnectedToDatabaseUsing item info.
-            </summary>
-        </member>
         <member name="T:ADS_start.CloseAUT">
              <summary>
             The CloseAUT recording.
@@ -621,45 +446,6 @@
         <member name="P:ADS_start.CloseAUT.CloseAutProcessIDVar">
             <summary>
             Gets or sets the value of variable CloseAutProcessIDVar.
-            </summary>
-        </member>
-        <member name="T:ADS_start.Recording1">
-             <summary>
-            The Recording1 recording.
-             </summary>
-        </member>
-        <member name="F:ADS_start.Recording1.repo">
-            <summary>
-            Holds an instance of the ADS_startRepository repository.
-            </summary>
-        </member>
-        <member name="M:ADS_start.Recording1.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:ADS_start.Recording1.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:ADS_start.Recording1.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:ADS_start.Recording1.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:ADS_start.Recording1.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:ADS_start.Recording1.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:ADS_start.StartAUT">
