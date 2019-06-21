@@ -156,16 +156,16 @@
       <id>2bb63732-2414-4b2c-a5ce-6dad79726aa1</id>
     </Compile>
     <Compile Include="Recording1.cs">
-      <BoundTo>3afc3b30-ebbd-4687-80bd-0490d992ba1f</BoundTo>
+      <BoundTo>2a93f422-5de1-46a7-ad09-4117d00ef76e</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>66c9769c-b59c-487e-9a84-3a4522183b36</id>
+      <id>961eda36-b362-48d0-8d0b-76c3e55d54a5</id>
     </Compile>
     <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>3afc3b30-ebbd-4687-80bd-0490d992ba1f</BoundTo>
+      <BoundTo>2a93f422-5de1-46a7-ad09-4117d00ef76e</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>fe0f5b27-82d4-42df-99f0-a479c1bdbf7b</id>
+      <id>fe2e5e49-2e8c-43c9-a361-af22e95b8ba0</id>
     </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>e30f17e4-0be4-4bf9-818a-45d2bc6fbd84</BoundTo>
@@ -178,6 +178,9 @@
       <DependentUpon>StartAUT.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>abefa1d2-1006-40e2-a590-046881cbdba9</id>
+    </Compile>
+    <Compile Include="UserCodeModules\RegisteredServer.cs">
+      <id>eefcf7a7-d823-433f-80f1-55e6d3c17c6b</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -195,15 +198,29 @@
     <None Include="app.config">
       <id>746a1347-6017-4115-be3a-299bafc74e79</id>
     </None>
+    <Content Include="AppInfo.csv">
+      <Link>AppInfo.csv</Link>
+      <BoundTo>e3378c71-9b36-4dc0-96b8-a8497d8ce4f8</BoundTo>
+      <DependentUpon>ADS_start.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d63e936e-c298-4c58-ae8b-2b6ad6f5680c</id>
+    </Content>
     <None Include="CloseAUT.rxrec">
       <BoundTo>10a1e1e2-4b7e-460d-b6aa-dedbe19e0795</BoundTo>
       <id>91255181-af89-4e88-906f-b9e4941dc87d</id>
       <recordtableid>79e2f5ed-08a7-4611-93a8-a4996e86b9bb</recordtableid>
     </None>
+    <Content Include="ServerInfo.csv">
+      <Link>ServerInfo.csv</Link>
+      <BoundTo>e3378c71-9b36-4dc0-96b8-a8497d8ce4f8</BoundTo>
+      <DependentUpon>ADS_start.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4f925513-9ff5-4112-bed6-ea8a7aae29c2</id>
+    </Content>
     <None Include="Recording1.rxrec">
       <BoundTo>10a1e1e2-4b7e-460d-b6aa-dedbe19e0795</BoundTo>
-      <id>3afc3b30-ebbd-4687-80bd-0490d992ba1f</id>
-      <recordtableid>2d736afe-5baf-4017-b547-38fa0d8b0189</recordtableid>
+      <id>2a93f422-5de1-46a7-ad09-4117d00ef76e</id>
+      <recordtableid>046416c2-680f-453d-90c2-bae71ba68164</recordtableid>
     </None>
     <None Include="StartAUT.rxrec">
       <BoundTo>10a1e1e2-4b7e-460d-b6aa-dedbe19e0795</BoundTo>
@@ -226,6 +243,11 @@
       <Project>{DC7708D3-A586-47EE-9B99-494C94FADD3A}</Project>
       <Name>Ranorex Automation Helpers</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserCodeModules">
+      <id>dd61e0b0-ae70-4483-92c7-07b5b75ab3cf</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

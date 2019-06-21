@@ -5,7 +5,9 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="ADS_start.rxtst" />
-    <Element value="StartAUT.rxrec" />
+    <Element value="UserCodeModules\RegisteredServer.cs" />
+    <Element value="ADS_startRepository.rxrep" />
+    <Element value="Recording1.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

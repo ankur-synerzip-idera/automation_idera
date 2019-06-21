@@ -32,41 +32,36 @@
 			type="Recording">
 				<databinding>
 					<var
+					dataname="ADS_Launch_Path"
+					datasourceid="52489650-6374-425b-9f1a-5fe33759a9d8"
+					variableid="5cbde57f-824c-44a9-bdac-7d6715c3dffa"
+					variablename="StartAutProcessIDVar_FilePath">
+					</var>
+					<var
 					dataname="Evaluation"
-					datasourceid="0b1036cf-0b26-4d47-a0f7-14b679a31dfd"
+					datasourceid="52489650-6374-425b-9f1a-5fe33759a9d8"
 					variableid="7324bebf-2da1-423a-8e76-16cf20814437"
 					variablename="Evaluation_Text">
 					</var>
 					<var
 					dataname="ADS_Title"
-					datasourceid="0b1036cf-0b26-4d47-a0f7-14b679a31dfd"
+					datasourceid="52489650-6374-425b-9f1a-5fe33759a9d8"
 					variableid="3cf8d129-2490-427b-b462-3e151893cc9a"
 					variablename="ADS_Title">
 					</var>
 					<var
-					dataname="ADS_Launch_Path"
-					datasourceid="0b1036cf-0b26-4d47-a0f7-14b679a31dfd"
-					variableid="5cbde57f-824c-44a9-bdac-7d6715c3dffa"
-					variablename="StartAutProcessIDVar_FilePath">
-					</var>
-					<var
 					dataname="Eval_Title"
-					datasourceid="0b1036cf-0b26-4d47-a0f7-14b679a31dfd"
+					datasourceid="52489650-6374-425b-9f1a-5fe33759a9d8"
 					variableid="219afb1b-5b72-4ecd-b8bf-f32e9f542859"
 					variablename="varLicense_Title">
 					</var>
 				</databinding>
 			</testmodule>
 			<smartfoldernode
+			datasource="ServerInfoConnector"
 			id="0ffd4a5b-62e8-445f-8ca8-3d4a6d32203e"
-			name="Start_ADS">
+			name="Server_Registration">
 			</smartfoldernode>
-			<testmodule
-			id="25438b64-ce6d-4c5a-b3cc-ff4017b43c58"
-			name="Recording1"
-			ref="2d736afe-5baf-4017-b547-38fa0d8b0189"
-			type="Recording">
-			</testmodule>
 			<testmodule
 			id="381e7ac5-f83a-4806-9660-519108ce59a7"
 			name="CloseAUT"
@@ -81,6 +76,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="NewConnector"
+			id="3ab2dd2f-dfb6-4076-b317-b8b63adade6a"
+			name="Start_ADS">
+			</smartfoldernode>
 			<teardown
 			id="66578557-4e17-4823-8aea-3f51f248ae11"
 			name="teardown">
@@ -94,10 +94,75 @@
 					name="AppProcessID"
 					value="">
 					</param>
+					<param
+					name="ServerNameGp"
+					value="MSSqlServer">
+					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="e9ad5c71-47dd-4f0d-8ea4-a6c3a7944299"
+			name="RegisteredServer"
+			ref="1c501cb7-af18-4f5f-89c3-c281529104f9"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="regWindowTitleVar"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="530e84d3-e2d6-43bd-98e2-2959191840b8"
+					variablename="regWindowTitleVar">
+					</var>
+					<var
+					dataname="ServerType"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="30de2f7f-f4d9-4fcb-8fcd-cfabbfeda827"
+					variablename="serverTypeVar">
+					</var>
+					<var
+					dataname="ServerName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="4ab6b51c-db37-4639-ba7e-4471493cb9c5"
+					variablename="serverNameVar">
+					</var>
+					<var
+					dataname="DriverType"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="ecd0e6f5-938b-40ce-928b-b888ec626476"
+					variablename="driverTypeVar">
+					</var>
+					<var
+					dataname="AuthLogin"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="6b81950f-a362-4373-9d7b-4f244037a1aa"
+					variablename="AuthTypeVar">
+					</var>
+					<var
+					dataname="LogName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="18fd9fa3-5632-4574-8d1a-139a5fc6701d"
+					variablename="loginTxtVar">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="54e78504-5525-4c28-ad34-412beb71a133"
+					variablename="loginPwdVar">
+					</var>
+					<var
+					dataname="HostName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="e8b1f3c3-9e85-4214-94fc-dad608b89ace"
+					variablename="hostNameVar">
+					</var>
+					<var
+					dataname="SucessTestConn"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="5e643ca3-957b-41d7-90af-014ffa0d615a"
+					variablename="SuccessConnToDbVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
-			datasource="Excel"
 			id="f7fdbe75-404b-4170-9735-086d81f57b20"
 			name="TestCase">
 			</testcase>
@@ -112,20 +177,24 @@
 					<testcase
 					id="f7fdbe75-404b-4170-9735-086d81f57b20"
 					name="TestCase">
-						<setup
-						id="01d6a429-9aa0-4d35-94ef-64ac5992d811"
-						name="setup">
-							<testmodule
-							id="0548ee10-b47b-46db-aeed-d290d1ba61c6"
-							name="StartAUT">
-							</testmodule>
-						</setup>
+						<smartfoldernode
+						id="3ab2dd2f-dfb6-4076-b317-b8b63adade6a"
+						name="Start_ADS">
+							<setup
+							id="01d6a429-9aa0-4d35-94ef-64ac5992d811"
+							name="setup">
+								<testmodule
+								id="0548ee10-b47b-46db-aeed-d290d1ba61c6"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+						</smartfoldernode>
 						<smartfoldernode
 						id="0ffd4a5b-62e8-445f-8ca8-3d4a6d32203e"
-						name="Start_ADS">
+						name="Server_Registration">
 							<testmodule
-							id="25438b64-ce6d-4c5a-b3cc-ff4017b43c58"
-							name="Recording1">
+							id="e9ad5c71-47dd-4f0d-8ea4-a6c3a7944299"
+							name="RegisteredServer">
 							</testmodule>
 						</smartfoldernode>
 						<teardown
@@ -143,14 +212,12 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="F:\Office\Projects\Idera\Automation\ADS\ADS_start\basic info.xlsx"
-		id="0b1036cf-0b26-4d47-a0f7-14b679a31dfd"
-		includefile="Unchecked"
+		id="52489650-6374-425b-9f1a-5fe33759a9d8"
+		includefile="Checked"
 		lastknownrowcount="1"
-		name="Excel"
-		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="Sheet1"
-		worksheetrange="Auto-Range">
+		name="NewConnector"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
 			<lastknowncolumns>
 				<column>
 					ADS_Launch_Path
@@ -167,6 +234,51 @@
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
+			<file>
+				AppInfo.csv
+			</file>
+		</DataSource>
+		<DataSource
+		id="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="ServerInfoConnector"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
+			<lastknowncolumns>
+				<column>
+					ServerType
+				</column>
+				<column>
+					regWindowTitleVar
+				</column>
+				<column>
+					DriverType
+				</column>
+				<column>
+					ServerName
+				</column>
+				<column>
+					AuthLogin
+				</column>
+				<column>
+					LogName
+				</column>
+				<column>
+					Password
+				</column>
+				<column>
+					HostName
+				</column>
+				<column>
+					SucessTestConn
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<file>
+				ServerInfo.csv
+			</file>
 		</DataSource>
 	</datasources>
 	<testconfigurations
@@ -175,6 +287,9 @@
 		name="TestRun">
 			<testcontainer
 			id="0ffd4a5b-62e8-445f-8ca8-3d4a6d32203e">
+			</testcontainer>
+			<testcontainer
+			id="3ab2dd2f-dfb6-4076-b317-b8b63adade6a">
 			</testcontainer>
 			<testcontainer
 			id="962b2020-9aab-4b7d-86f4-c61f4b197327">

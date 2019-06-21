@@ -1,0 +1,2 @@
+﻿ServerType,regWindowTitleVar,DriverType,ServerName,AuthLogin,LogName,Password,HostName,SucessTestConn
+MS SQL Server,Register Server - [MS SQL Server,jTDS,SqlServerNew,SQL Server Authentication,testab,synerzip1,ULTP_792\SQLEXPRESS,Successfully Connected to Database

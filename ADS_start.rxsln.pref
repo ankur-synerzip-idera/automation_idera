@@ -8,8 +8,9 @@
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{D9C1F66D-A9CB-4BAF-B3D0-A19CADFF15AC}</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>dd61e0b0-ae70-4483-92c7-07b5b75ab3cf</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution ADS_start[ADS_start[]Ranorex Automation Helpers[References[]]]]&#xD;&#xA;Solution ADS_start\ADS_start\ADS_start.rxtst&#xD;&#xA;Solution ADS_start" />
+  <ProjectBrowserState value="[Solution ADS_start[ADS_start[]]]&#xD;&#xA;Solution ADS_start\ADS_start\ADS_start.rxtst&#xD;&#xA;Solution ADS_start" />
   <StartupProject value="{D9C1F66D-A9CB-4BAF-B3D0-A19CADFF15AC}" />
 </Properties>

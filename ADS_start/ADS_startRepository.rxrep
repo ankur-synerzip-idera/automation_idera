@@ -92,6 +92,23 @@ SUVORK5CYII=
 			searchtimeout="30000ms">
 				/form[@title&gt;'Aqua Data Studio - [Evalu']/titlebar[@accessiblerole='TitleBar']
 			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="134da088-e423-4baf-91a3-d7088f21cea7"
+			name="DatabaseServersEle"
+			refimgid="18d8db40-229a-4650-8744-4d429f621242"
+			refpath="/form[@title>'Aqua Data Studio - [Evalu']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container/container[@type='NonOpaquePanel']/container/container/container[@type='ContentManagerImpl$MyContentComponent']/container/container/container/tree/treeitem/treeitem[@text='Local Database Servers']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Aqua Data Studio - [Evalu']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='fLp']/?/?/treeitem[@text='Local Database Servers']
+			</item>
+			<item
+			capname="unknown"
+			id="c9cdd7df-9304-43f2-b484-8e6ff400ecfc"
+			name="NewItem"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Aqua Data Studio - [Evalu']/element
+			</item>
 			<basepath>
 				/form[@title&gt;'Aqua Data Studio - [Evalu']
 			</basepath>
@@ -113,9 +130,414 @@ WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
 SUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="cf4fbc79-3679-4fb2-8ac2-094be21b7391"
+		isrooted="True"
+		name="Datastudio"
+		refimgid="f1061326-4539-4557-94bd-57dd300b1ded"
+		refpath="/form[@processname='datastudio']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="901d7c4b-ac71-4a8b-9fd8-ee893a8af108"
+			name="RegisterServerEle"
+			refimgid="c4edd245-8d12-46e6-8bbd-5c113f6527a1"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Register Server']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/menuitem[@text='Register Server']
+			</item>
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="f51fcf82-8b96-4702-be12-733d436a525c"
+			name="RegisterServerTitleBarFormEle"
+			refimgid="efe5e60f-daa2-4563-a220-1eea4415dd31"
+			refpath="/form[@title>'Register Server - [MS SQL']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="25849581-d360-4865-8b2e-5b0895c86adf"
+			name="TestConnBtnEle"
+			refimgid="03191714-f939-46bd-a471-504798b72c31"
+			refpath="/form[@title>'Register Server - [MS SQL']/container[@type='Iꅟꎴꏁͦ7for']/container/button[@name='fYo']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/container[@type='I&#41311;&#41908;&#41921;&#870;7for']/?/?/button[@name='fYo']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="c8eb4347-55f9-499f-a71b-2a42c1d41100"
+			name="SaveServerRegEle"
+			refimgid="58567e97-a676-4f37-8617-af6a0e4756c7"
+			refpath="/form[@title>'Register Server - [MS SQL']/container[@type='Iꅟꎴꏁͦ7for']/container/button[@name='fxO']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/container[@type='I&#41311;&#41908;&#41921;&#870;7for']/?/?/button[@name='fxO']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="bec9ae60-cd28-4dbf-b05b-e71a4ff48d21"
+			name="CloseTestConnEle"
+			refimgid="206b26c9-57ad-46c1-a140-3abbaf0497d8"
+			refpath="/form[@title='Connection Test - SUCCESS']/container/container[@type='Iꅟꎴꏁͦ7for']/container/container/button[@name='defaultButton']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/container[@type='JPanel']/container[@type='I&#41311;&#41908;&#41921;&#870;7for']//button[@name='defaultButton']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="78734b1f-45d5-4c12-8c34-aa7a84abd4a4"
+			name="Cancel"
+			refimgid="f776607f-f729-4d3f-a322-85b8e859551f"
+			refpath="/form[@title>'Register Server - [MS SQL']/container[@type='Iꅟꎴꏁͦ7for']/container/button[@name='fxP']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/container[@type='I&#41311;&#41908;&#41921;&#870;7for']/?/?/button[@name='fxP']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="5ce8ad34-b2a1-4077-bd81-84cf5b154ccf"
+			isrooted="True"
+			name="ContainerFYs"
+			refpath="/form[@title='Register Server - [MS SQL Server 2000/2005/2008/2012/2014/2016/2017]']/container[@name='fSs']/container[@name='fXv']/container[@type='JPanel']/container[@name='fYs']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="283203c7-9039-422c-8288-02ca3f152992"
+				name="serverNameEle"
+				refimgid="b7c9bfd1-8132-4b09-b37f-95d275a77643"
+				refpath="/form[@title>'Register Server - [Amazon']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@name='gcl']/container/text[@name='ec']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@name='gcl']/?/?/text[@name='ec']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="a3db2383-3fda-4f0d-a304-6bdfa79bac3c"
+				name="hostNameEle1"
+				refimgid="f68dc267-0f97-4867-b79b-2c460afd7c6c"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='n⠩ꑽꃒꑖtransient8']/container/container/text[@caption>' host OR host\named_insta']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@name='gfT']/text[@caption&gt;' host OR host\named_insta']
+				</item>
+				<item
+				addcaps="combobox,javaelement"
+				capname="combobox"
+				id="c3cec3c5-dc17-4c1d-b8af-a5582580e068"
+				name="ComboAuthTypeEle"
+				refimgid="0070d37e-5a7a-439a-9f2f-5ce777be8dce"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='Pꈘᜬᛌᝊtransient5']/container/combobox[@name='eXC']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@type='P&#41496;&#5932;&#5836;&#5962;transient5']/?/?/combobox[@name='eXC']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="558e00ad-b5f4-4de9-9b19-b74899689dff"
+				name="LoginName"
+				refimgid="dd122b30-efae-4807-b83e-b63f5fc5723a"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='Pꈘᜬᛌᝊtransient5']/container/text[@caption='Login Name:']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@type='P&#41496;&#5932;&#5836;&#5962;transient5']/?/?/text[@caption='Login Name:']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="4f9346da-db00-451c-ae3b-49ea11626fc4"
+				name="LoginPwdEle"
+				refimgid="380a74d1-7462-47bf-8333-4409a1d50b60"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='Pꈘᜬᛌᝊtransient5']/container/text[@type='JPasswordField']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@type='P&#41496;&#5932;&#5836;&#5962;transient5']/?/?/text[@type='JPasswordField']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="0e4df0ae-1d62-4eca-86db-5aec59a7857f"
+				name="LoginTxtEle"
+				refimgid="c9a254cc-8609-455f-b3b7-c772a692616b"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='Pꈘᜬᛌᝊtransient5']/container/text[@type='JTextField']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@type='P&#41496;&#5932;&#5836;&#5962;transient5']/?/?/text[@type='JTextField']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="05cd800d-b6ed-4909-9e9c-841fd0b9e6ef"
+				name="driveComboDropBtnEle"
+				refimgid="37bb0071-2182-4a89-bb16-7681233f3a57"
+				refpath="/form[@title='Register Server - [MS SQL Server 2000/2005/2008/2012/2014/2016/2017]']/container[@name='fSs']/container[@name='fXv']/container[@type='JPanel']/container[@name='fYs']/container[@type='f⡔ꃕ͂ꐤlong']/container[@type='JPanel']/container[@name='gfP']/container[@type='JPanel']/combobox[@name='gfH']/button[@text='']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@name='gfP']/?/?/combobox[@name='gfH']/button[@text='']
+				</item>
+				<item
+				addcaps="combobox,javaelement"
+				capname="combobox"
+				id="63f55ca4-4abc-46c4-96f5-35c52925373a"
+				name="comboDriverEle"
+				refimgid="888e78df-0334-47b4-a8a2-4fdbe091bb8d"
+				refpath="/form[@title='Register Server - [MS SQL Server 2000/2005/2008/2012/2014/2016/2017]']/container[@name='fSs']/container[@name='fXv']/container[@type='JPanel']/container[@name='fYs']/container[@type='f⡔ꃕ͂ꐤlong']/container[@type='JPanel']/container[@name='gfP']/container[@type='JPanel']/combobox[@name='gfH']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@name='gfP']/?/?/combobox[@name='gfH']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="7e5f9607-6e54-44b1-b172-41b9a3877ac1"
+				name="JTextField1"
+				refimgid="b0d2c8b4-b196-4c41-89a7-70bc4fa998bb"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='z⠰ꆁꉊꂐ']/container/text[@type='JTextField']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@type='z&#10288;&#41345;&#41546;&#41104;']/?/?/text[@type='JTextField']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="5425c332-2f85-4618-afa7-075df9de85d6"
+				name="TextEc"
+				refimgid="4fae1ea5-3854-4575-9278-465c7d7ca8c0"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='N⣏ꌢ̤ꅒfor']/container/text[@name='ec']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@type='N&#10447;&#41762;&#804;&#41298;for']/?/?/text[@name='ec']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="0a07913f-c104-4a3a-9a0c-3104a320c8ab"
+				name="Password"
+				refimgid="50ccfc4e-711d-45d5-adc2-83b01487e4de"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='Pꈘᜬᛌᝊtransient5']/container/text[@caption='Password:']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@type='P&#41496;&#5932;&#5836;&#5962;transient5']/?/?/text[@caption='Password:']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="2268c5da-5caf-4db0-81d0-4f2bfcde18c0"
+				name="JTextField2"
+				refimgid="153b378c-a394-460d-87e6-ae223ee9189c"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='n⠩ꑽꃒꑖtransient8']/container/text[@type='JTextField']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@type='n&#10281;&#42109;&#41170;&#42070;transient8']/?/?/text[@type='JTextField']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="babc60d0-c366-4a1d-93ce-0f01c99858bf"
+				name="hostNameEle"
+				refimgid="52f3a62f-4bdf-4a22-a923-e5c360542d1a"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container/container[@type='n⠩ꑽꃒꑖtransient8']/container/container/text[@name='_actualComponent']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']//container[@name='gfT']/text[@name='_actualComponent']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="2d2f29b9-11c6-44ec-b377-03ca982572d9"
+				name="JPanel"
+				refimgid="14a8309e-4f48-440f-b2e0-a920136f24a8"
+				refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fYs']/container/container[@type='JPanel']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']/?/?/container[@type='JPanel']
+				</item>
+				<basepath>
+					/form[@processname='datastudio']/container[@name='fSs']/container[@name='fXv']/?/?/container[@name='fYs']
+				</basepath>
+			</folder>
+			<item
+			addcaps="list,javaelement"
+			capname="list"
+			id="b74401b5-1bd8-4da7-9a52-7ba47100fa5d"
+			name="serverTypeListEle"
+			refimgid="fef21456-be11-4796-bb55-f07935d0dcee"
+			refpath="/form[@title='Register Server - [MS SQL Server 2000/2005/2008/2012/2014/2016/2017]']/container[@name='fSs']/container[@name='fXv']/container[@type='JPanel']/container[@name='fXG']/container[@name='viewport']/list[@name='fXF']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="f284b8fb-17cc-43a0-be69-2170272ce3e3"
+			name="MSSQLDatabaseAzure"
+			refimgid="3447332b-f2bb-4793-91dd-13f6dae46e51"
+			refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/container[@name='fXG']/container/list/listitem[@text='MS SQL Database (Azure)']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']/listitem[@text='MS SQL Database (Azure)']
+			</item>
+			<folder
+			addcaps="list,javaelement"
+			capname="list"
+			id="341885ab-20f8-43d1-aa7c-9792e2c05866"
+			isrooted="True"
+			name="ComboBoxList"
+			refpath="/form[@processname='datastudio']/contextmenu[@name='ComboPopup.popup']/container[@name='ComboBox.scrollPane']/container[@name='viewport']/list[@name='ComboBox.list']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="4608a88a-1037-478b-b052-a693b7ed64d8"
+				name="MicrosoftEle"
+				refimgid="12b7b6d7-7fda-4313-82c1-15e120dff1ac"
+				refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='Microsoft']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Microsoft']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="a036c9ed-afed-482e-8631-d72cadd0991b"
+				name="WindowsSingleSignOn"
+				refimgid="1a607b1d-6c4b-4a40-88a2-b9c11e0e8575"
+				refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='Windows Single Sign-On']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Windows Single Sign-On']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="d13b784d-77e1-4524-b36a-c092a9174f31"
+				name="JTDSDriverEle"
+				refimgid="7e040ab8-4635-4c89-af90-27250bcd96f7"
+				refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='jTDS']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='jTDS']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="1a4048a2-a48f-41c4-b9c8-943fe2d2e450"
+				name="AuthTypeEle"
+				refimgid="5fde6026-63ba-4dd3-86d0-a59ca731e2ba"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text=$WindowsAuthTypeRepo]
+				</item>
+				<basepath>
+					/form[@processname='datastudio']//container[@name='viewport']/list[@name='ComboBox.list']
+				</basepath>
+			</folder>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="0a1120c9-65b7-4775-8751-edc78ec12dd2"
+			name="MSSQLServerEle"
+			refimgid="0130f0f1-2b1d-47ff-9899-51e5e6c8b803"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']/listitem[@text=$srTypeEle]
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="64133332-55f6-4dea-990a-61e5366fbfe3"
+			name="ContainerFSs"
+			refimgid="f18995bd-3e02-4e73-b9a6-1d3534e91be4"
+			refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/container[@name='fSs']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="452336e2-9f90-4a40-b4cb-47820d5c9767"
+			name="ContainerFXv"
+			refimgid="74e719c7-8295-480d-9017-94e20bd707b6"
+			refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/container[@name='fXv']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="da1c9984-be94-4ea0-a3e1-8db07d76f1f9"
+			isrooted="True"
+			name="JPanel"
+			refpath="/form[@title='Connection Test - SUCCESS']/container[@type='JPanel']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="11f9c4cd-16fa-4342-8d2f-6e7a0a1a854a"
+				name="SuccessConnToDbEle"
+				refimgid="fae7766e-5698-4c84-ac48-e185794969b5"
+				refpath="/form[@title='Connection Test - SUCCESS']/container/container[1]/container/text[@caption>'Successfully Connected to']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@type='JPanel']//text[@caption&gt;'Successfully Connected to']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="db770779-1eb8-41b6-828e-2ff9e9ddb50e"
+				name="YourServerIsAcceptingSocketConnecti"
+				refimgid="09ee3eb2-67d2-4f63-a45d-ab2c45bb63f1"
+				refpath="/form[@title='Connection Test - SUCCESS']/container/container[1]/container/container/container/container/body/table[1]/tr/td[2]/tag[@innertext>'Your server is accepting socket']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@type='JPanel']/?/?/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/?/?/body/table[1]/tr/td[2]/tag[@innertext&gt;'Your server is accepting socket']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="f7691480-d0d2-40c0-b597-4c5dbd10da32"
+				name="SuccessfullyConnectedToDatabaseUsing"
+				refimgid="e7e7abae-a36a-41a8-8dbc-b96e19e1182a"
+				refpath="/form[@title='Connection Test - SUCCESS']/container/container[1]/container/container/container/container/body/table[2]/tr/td[2]/tag[@innertext>'Successfully connected to']"
+				searchtimeout="30000ms">
+					/form[@processname='datastudio']/container[@type='JPanel']/?/?/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/?/?/body/table[2]/tr/td[2]/tag[@innertext&gt;'Successfully connected to']
+				</item>
+				<basepath>
+					/form[@processname='datastudio']/container[@type='JPanel']
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="1d99437a-3a4c-4874-8e78-5c901900689b"
+			name="MountedScripts"
+			refimgid="fb820509-9b67-4d21-ba12-fb11b088cd28"
+			refpath="/form[@title>'Register Server - [MS SQL']/container[@name='fSs']/container[@name='fXv']/container/text[@caption='Mounted Scripts']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/container[@name='fXv']/?/?/text[@caption='Mounted Scripts']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
 	<variables>
+		<var
+		id="e36a9491-016d-4170-ab94-6b2333a199fd"
+		name="srTypeEle">
+			MS SQL Server
+		</var>
+		<var
+		id="efcc0d3f-cc81-4ccb-8c68-81a82aa4b4e0"
+		name="WindowsAuthTypeRepo">
+			Windows Authentication
+		</var>
 	</variables>
 </repository>

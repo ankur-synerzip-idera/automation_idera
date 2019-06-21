@@ -6,3 +6,11 @@ F:\Office\Projects\Idera\Automation\ADS\ADS_start\RanorexAutomationHelpers\bin\D
 F:\Office\Projects\Idera\Automation\ADS\ADS_start\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
 F:\Office\Projects\Idera\Automation\ADS\ADS_start\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
 F:\Office\Projects\Idera\Automation\ADS\ADS_start\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb
+F:\Idera_Automation\automation_idera\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.xml
+F:\Idera_Automation\automation_idera\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+F:\Idera_Automation\automation_idera\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+F:\Idera_Automation\automation_idera\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+F:\Idera_Automation\automation_idera\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+F:\Idera_Automation\automation_idera\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
+F:\Idera_Automation\automation_idera\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+F:\Idera_Automation\automation_idera\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb
