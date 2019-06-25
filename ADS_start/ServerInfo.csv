@@ -1,2 +1,2 @@
-﻿ServerType,regWindowTitleVar,DriverType,ServerName,AuthLogin,LogName,Password,HostName,SucessTestConn
-MS SQL Server,Register Server - [MS SQL Server,jTDS,SqlServerNew,SQL Server Authentication,testab,synerzip1,ULTP_792\SQLEXPRESS,Successfully Connected to Database
+﻿ServerType,regWindowTitleBar,DriverType,ServerName,AuthLogin,LogName,Password,HostName,SucessTestConn,DBName,QueryStatment,EditPropTitleBar,addScript
+MS SQL Server,Register Server - [MS SQL Server,jTDS,SqlServerNew,SQL Server Authentication,testab,synerzip1,ULTP_792\SQLEXPRESS,Successfully Connected to Database,msdb,select * from backupfile,Edit Server Properties - [MS SQL Server ,use msdb

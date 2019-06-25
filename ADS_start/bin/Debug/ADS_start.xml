@@ -44,6 +44,21 @@
             Gets or sets the value of variable serverType1Repo.
             </summary>
         </member>
+        <member name="P:ADS_start.ADS_startRepository.deRegisterServerNameRepo">
+            <summary>
+            Gets or sets the value of variable deRegisterServerNameRepo.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepository.unRegisterServerNameRepo">
+            <summary>
+            Gets or sets the value of variable unRegisterServerNameRepo.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepository.ServerNameRepo">
+            <summary>
+            Gets or sets the value of variable ServerNameRepo.
+            </summary>
+        </member>
         <member name="P:ADS_start.ADS_startRepository.SelfInfo">
             <summary>
             The Self item info.
@@ -189,14 +204,14 @@
             The RegisterServerEle item info.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.RegisterServerTitleBarFormEle">
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.RegrServerTitleBarFormEle">
             <summary>
-            The RegisterServerTitleBarFormEle item.
+            The RegrServerTitleBarFormEle item.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.RegisterServerTitleBarFormEleInfo">
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.RegrServerTitleBarFormEleInfo">
             <summary>
-            The RegisterServerTitleBarFormEle item info.
+            The RegrServerTitleBarFormEle item info.
             </summary>
         </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.TestConnBtnEle">
@@ -237,6 +252,96 @@
         <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.serverTypeEleInfo">
             <summary>
             The serverTypeEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ServerMainEle">
+            <summary>
+            The ServerMainEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ServerMainEleInfo">
+            <summary>
+            The ServerMainEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.UnregisterServerEle">
+            <summary>
+            The UnregisterServerEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.UnregisterServerEleInfo">
+            <summary>
+            The UnregisterServerEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.UnRegisterPopupButtonYesEle">
+            <summary>
+            The UnRegisterPopupButtonYesEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.UnRegisterPopupButtonYesEleInfo">
+            <summary>
+            The UnRegisterPopupButtonYesEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.SqlServerNew">
+            <summary>
+            The SqlServerNew item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.SqlServerNewInfo">
+            <summary>
+            The SqlServerNew item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ServerPropertiesEle">
+            <summary>
+            The ServerPropertiesEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ServerPropertiesEleInfo">
+            <summary>
+            The ServerPropertiesEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ScriptMenuEle">
+            <summary>
+            The ScriptMenuEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ScriptMenuEleInfo">
+            <summary>
+            The ScriptMenuEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.scriptEditEle">
+            <summary>
+            The scriptEditEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.scriptEditEleInfo">
+            <summary>
+            The scriptEditEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.SaveServerPropEle">
+            <summary>
+            The SaveServerPropEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.SaveServerPropEleInfo">
+            <summary>
+            The SaveServerPropEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.SchemaChangePopupEle">
+            <summary>
+            The SchemaChangePopupEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.SchemaChangePopupEleInfo">
+            <summary>
+            The SchemaChangePopupEle item info.
             </summary>
         </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ContainerFYs">
@@ -506,6 +611,42 @@
             <summary>
             Gets or sets the value of variable varLicense_Title.
             </summary>
+        </member>
+        <member name="T:ADS_start.Server_PropertiesUpdate">
+            <summary>
+            Description of Server_PropertiesUpdate.
+            </summary>
+        </member>
+        <member name="M:ADS_start.Server_PropertiesUpdate.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ADS_start.Server_PropertiesUpdate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:ADS_start.UserCodeModules.UnRegisterServer">
+            <summary>
+            Description of DeRegisterServer.
+            </summary>
+        </member>
+        <member name="M:ADS_start.UserCodeModules.UnRegisterServer.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ADS_start.UserCodeModules.UnRegisterServer.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
         </member>
         <member name="T:ADS_start.UserCodeModules.RegisteredServer">
             <summary>

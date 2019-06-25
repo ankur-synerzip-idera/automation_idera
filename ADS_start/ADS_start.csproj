@@ -167,6 +167,12 @@
       <UserCode>true</UserCode>
       <id>abefa1d2-1006-40e2-a590-046881cbdba9</id>
     </Compile>
+    <Compile Include="UserCodeModules\Server_PropertiesUpdate.cs">
+      <id>b84e9be2-4a8c-4c9c-a8d9-658133b65c3b</id>
+    </Compile>
+    <Compile Include="UserCodeModules\UnRegisterServer.cs">
+      <id>82f6e40a-5227-438d-bb22-2a9dd772f1c3</id>
+    </Compile>
     <Compile Include="UserCodeModules\RegisteredServer.cs">
       <id>eefcf7a7-d823-433f-80f1-55e6d3c17c6b</id>
     </Compile>

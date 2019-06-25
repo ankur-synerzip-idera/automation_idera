@@ -147,7 +147,7 @@ SUVORK5CYII=
 			addcaps="titlebar,accessible"
 			capname="titlebar"
 			id="f51fcf82-8b96-4702-be12-733d436a525c"
-			name="RegisterServerTitleBarFormEle"
+			name="RegrServerTitleBarFormEle"
 			refimgid="efe5e60f-daa2-4563-a220-1eea4415dd31"
 			refpath="/form[@title>'Register Server - [MS SQL']/titlebar[@accessiblerole='TitleBar']"
 			searchtimeout="30000ms">
@@ -320,6 +320,95 @@ SUVORK5CYII=
 			searchtimeout="30000ms">
 				/form[@processname='datastudio']/?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']/listitem[@text=$serverTypeRepo]
 			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="7f63d772-36b5-4e51-8c34-33f5f2637512"
+			name="ServerMainEle"
+			refimgid="8451e313-4e22-4f09-9744-8454d5f032fe"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='fLp']//treeitem[@text=$ServerNameRepo]
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="84f47009-bfac-4da9-8534-9469317e17a6"
+			name="UnregisterServerEle"
+			refimgid="b789654b-dcdc-4f36-9be1-9139148565dc"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Unregister Server']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/menuitem[@text='Unregister Server']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="75edcada-6cd7-449c-9ac3-18cf63c72948"
+			name="UnRegisterPopupButtonYesEle"
+			refimgid="2a312614-a0a3-4b6c-adb2-e9073eae3a11"
+			refpath="/form[@title='Unregister Server']/container/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button' and @text='Yes']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="626f2d9a-9bc8-43e5-8759-272e17769f0d"
+			name="SqlServerNew"
+			refimgid="3a353498-9566-4462-83b9-555df0d1cc7f"
+			refpath="/form[@title>'Aqua Data Studio - [Evalu']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container/container[@type='NonOpaquePanel']/container/container/container[@type='ContentManagerImpl$MyContentComponent']/container/container/container/tree/treeitem/treeitem/treeitem[@text='SqlServerNew']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='fLp']//treeitem[@text='SqlServerNew']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="0ceb77a7-c568-470b-85b8-52d48a3f1660"
+			name="ServerPropertiesEle"
+			refimgid="c4a1e82e-d18c-4906-88e4-2018959ae394"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Server Properties']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/menuitem[@text='Server Properties']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="3ec45860-3fad-4e88-958e-032bce7361d7"
+			name="ScriptMenuEle"
+			refimgid="ed50037c-9778-459c-ae4f-42dc0954dfc8"
+			refpath="/form[@title>'Edit Server Properties - [MS']/container[@name='fSs']/tabpage[@title='Script   ']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/tabpage[@title='Script   ']
+			</item>
+			<item
+			addcaps="unknown,javaelement"
+			capname="unknown"
+			id="29a1cb0c-2012-4775-a596-6b1d9d85515a"
+			name="scriptEditEle"
+			refimgid="1ecf41db-9d6f-4339-9b71-67e02e41ca3b"
+			refpath="/form[@title>'Edit Server Properties - [MS']/container[@name='fSs']/container[@name='fYl']/container/container[@type='PsiAwareTextEditorImpl$PsiAwareTextEditorComponent']/container/container[@type='JPanel']/container/container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/container[@name='fSs']/container[@name='fYl']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="29fd9fb8-e83c-42d8-818d-00d961799815"
+			name="SaveServerPropEle"
+			refimgid="ab0905d4-aa3e-4d02-8bd9-98a45d57912f"
+			refpath="/form[@title>'Edit Server Properties - [MS']/container[@type='Iꅟꎴꏁͦ7for']/container/button[@name='defaultButton']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/container[@type='I&#41311;&#41908;&#41921;&#870;7for']/?/?/button[@name='defaultButton']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="bd1f7815-f054-44d2-bcd8-8b2d62b47f84"
+			name="SchemaChangePopupEle"
+			refimgid="d4fc1a74-cf4b-4b81-89d3-5d87628ed592"
+			refpath="/form[@title='Edit Server Properties']/container/container[1]/container/container[@name='OptionPane.body']/text[@name='OptionPane.label']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[@name='OptionPane.label']
+			</item>
 			<basepath>
 				/form[@processname='datastudio']
 			</basepath>
@@ -364,6 +453,19 @@ Et1VDAAAAABJRU5ErkJggg==
 		id="ab081ae0-4e16-4a59-bd53-15e319cec3b0"
 		name="serverType1Repo">
 			MS SQL Server
+		</var>
+		<var
+		id="0a2d52e5-febc-470e-a9a9-22f9a8dbd8e6"
+		name="deRegisterServerNameRepo">
+			SqlServerNew
+		</var>
+		<var
+		id="a22a1f6e-ab61-47d4-9688-78413c9ec2b1"
+		name="unRegisterServerNameRepo">
+		</var>
+		<var
+		id="0b4e3dd5-45c3-4284-b60a-4a42c1fbafc3"
+		name="ServerNameRepo">
 		</var>
 	</variables>
 </repository>

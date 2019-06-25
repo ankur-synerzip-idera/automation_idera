@@ -76,11 +76,56 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="38d67e06-7b7d-4100-bb22-833fc5128a10"
+			name="Server_PropertiesUpdate"
+			ref="a148252e-5f2c-40c6-81b1-8aa1f107a160"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="addScript"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="57579758-b2b4-4526-9c32-e9204596b91e"
+					variablename="addScriptVar">
+					</var>
+					<var
+					dataname="EditPropTitleBar"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="a0210479-4cb0-473d-bf76-e272673602e5"
+					variablename="editServerPropTitleVar">
+					</var>
+					<var
+					dataname="ServerName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="124963b7-41af-4506-9cf9-dd17803084ec"
+					variablename="serverNameVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			datasource="NewConnector"
 			id="3ab2dd2f-dfb6-4076-b317-b8b63adade6a"
 			name="Start_ADS">
 			</smartfoldernode>
+			<smartfoldernode
+			datasource="ServerInfoConnector"
+			id="3d4a1525-8354-4cc3-8a66-f00824d1990a"
+			name="Server_UnRegistration">
+			</smartfoldernode>
+			<testmodule
+			id="5b3a6ee3-c17c-4c5f-ada8-7808a187c6d2"
+			name="UnRegisterServer"
+			ref="b97a5c1f-236c-4e50-8acd-19858a7bc1dc"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="ServerName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="5afaf8dc-8488-4aca-9d19-1ea45a579e80"
+					variablename="unRegisterServerNameVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="66578557-4e17-4823-8aea-3f51f248ae11"
 			name="teardown">
@@ -100,6 +145,11 @@
 					</param>
 				</parameters>
 			</testcase>
+			<smartfoldernode
+			datasource="ServerInfoConnector"
+			id="dd26eb8b-60b3-472b-8d87-9e6648815e79"
+			name="Server_RightClick_PropertiesUpdate">
+			</smartfoldernode>
 			<testmodule
 			id="e9ad5c71-47dd-4f0d-8ea4-a6c3a7944299"
 			name="RegisteredServer"
@@ -107,46 +157,10 @@
 			type="UserCode">
 				<databinding>
 					<var
-					dataname="regWindowTitleVar"
+					dataname="SucessTestConn"
 					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
-					variableid="530e84d3-e2d6-43bd-98e2-2959191840b8"
-					variablename="regWindowTitleVar">
-					</var>
-					<var
-					dataname="ServerType"
-					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
-					variableid="30de2f7f-f4d9-4fcb-8fcd-cfabbfeda827"
-					variablename="serverTypeVar">
-					</var>
-					<var
-					dataname="ServerName"
-					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
-					variableid="4ab6b51c-db37-4639-ba7e-4471493cb9c5"
-					variablename="serverNameVar">
-					</var>
-					<var
-					dataname="DriverType"
-					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
-					variableid="ecd0e6f5-938b-40ce-928b-b888ec626476"
-					variablename="driverTypeVar">
-					</var>
-					<var
-					dataname="AuthLogin"
-					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
-					variableid="6b81950f-a362-4373-9d7b-4f244037a1aa"
-					variablename="AuthTypeVar">
-					</var>
-					<var
-					dataname="LogName"
-					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
-					variableid="18fd9fa3-5632-4574-8d1a-139a5fc6701d"
-					variablename="loginTxtVar">
-					</var>
-					<var
-					dataname="Password"
-					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
-					variableid="54e78504-5525-4c28-ad34-412beb71a133"
-					variablename="loginPwdVar">
+					variableid="5e643ca3-957b-41d7-90af-014ffa0d615a"
+					variablename="SuccessConnToDbVar">
 					</var>
 					<var
 					dataname="HostName"
@@ -155,10 +169,46 @@
 					variablename="hostNameVar">
 					</var>
 					<var
-					dataname="SucessTestConn"
+					dataname="Password"
 					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
-					variableid="5e643ca3-957b-41d7-90af-014ffa0d615a"
-					variablename="SuccessConnToDbVar">
+					variableid="54e78504-5525-4c28-ad34-412beb71a133"
+					variablename="loginPwdVar">
+					</var>
+					<var
+					dataname="LogName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="18fd9fa3-5632-4574-8d1a-139a5fc6701d"
+					variablename="loginTxtVar">
+					</var>
+					<var
+					dataname="AuthLogin"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="6b81950f-a362-4373-9d7b-4f244037a1aa"
+					variablename="AuthTypeVar">
+					</var>
+					<var
+					dataname="DriverType"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="ecd0e6f5-938b-40ce-928b-b888ec626476"
+					variablename="driverTypeVar">
+					</var>
+					<var
+					dataname="ServerName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="4ab6b51c-db37-4639-ba7e-4471493cb9c5"
+					variablename="serverNameVar">
+					</var>
+					<var
+					dataname="ServerType"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="30de2f7f-f4d9-4fcb-8fcd-cfabbfeda827"
+					variablename="serverTypeVar">
+					</var>
+					<var
+					dataname="regWindowTitleBar"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="530e84d3-e2d6-43bd-98e2-2959191840b8"
+					variablename="regWindowTitleVar">
 					</var>
 				</databinding>
 			</testmodule>
@@ -195,6 +245,22 @@
 							<testmodule
 							id="e9ad5c71-47dd-4f0d-8ea4-a6c3a7944299"
 							name="RegisteredServer">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="dd26eb8b-60b3-472b-8d87-9e6648815e79"
+						name="Server_RightClick_PropertiesUpdate">
+							<testmodule
+							id="38d67e06-7b7d-4100-bb22-833fc5128a10"
+							name="Server_PropertiesUpdate">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="3d4a1525-8354-4cc3-8a66-f00824d1990a"
+						name="Server_UnRegistration">
+							<testmodule
+							id="5b3a6ee3-c17c-4c5f-ada8-7808a187c6d2"
+							name="UnRegisterServer">
 							</testmodule>
 						</smartfoldernode>
 						<teardown
@@ -250,7 +316,7 @@
 					ServerType
 				</column>
 				<column>
-					regWindowTitleVar
+					regWindowTitleBar
 				</column>
 				<column>
 					DriverType
@@ -273,6 +339,18 @@
 				<column>
 					SucessTestConn
 				</column>
+				<column>
+					DBName
+				</column>
+				<column>
+					QueryStatment
+				</column>
+				<column>
+					EditPropTitleBar
+				</column>
+				<column>
+					addScript
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -292,7 +370,13 @@
 			id="3ab2dd2f-dfb6-4076-b317-b8b63adade6a">
 			</testcontainer>
 			<testcontainer
+			id="3d4a1525-8354-4cc3-8a66-f00824d1990a">
+			</testcontainer>
+			<testcontainer
 			id="962b2020-9aab-4b7d-86f4-c61f4b197327">
+			</testcontainer>
+			<testcontainer
+			id="dd26eb8b-60b3-472b-8d87-9e6648815e79">
 			</testcontainer>
 			<testcontainer
 			id="f7fdbe75-404b-4170-9735-086d81f57b20">

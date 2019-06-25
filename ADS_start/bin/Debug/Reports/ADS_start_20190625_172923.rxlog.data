@@ -6,7 +6,7 @@
 		duration="0ms"
 		durationms="0"
 		type="root"
-		rid="119b883fcda4eb23"
+		rid="19fa282de0ab36e2"
 		totalerrorcount="0"
 		totalwarningcount="0"
 		totalsuccesstestcasecount="1"
@@ -15,7 +15,7 @@
 		childsuccesscount="1"
 		childfailedcount="0"
 		childblockedcount="0"
-		totalsuccesscount="3"
+		totalsuccesscount="5"
 		totalfailedcount="0"
 		totalblockedcount="0"
 		totalmaintenancemodecount="0"
@@ -28,19 +28,19 @@
 		oslanguage="en-US"
 		dtnlanguage="en-IN"
 		screenresolution="3286x1080"
-		timestamp="21-06-2019 16:19:17"
-		timestampiso="2019-06-21T10:49:17"
-		endtime="21-06-2019 16:19:48"
+		timestamp="25-06-2019 17:29:23"
+		timestampiso="2019-06-25T11:59:23"
+		endtime="25-06-2019 17:31:06"
 		timeoutfactor="1">
 		<detail>
 			Ranorex Testscript
 		</detail>
 		<activity
 			result="Success"
-			duration="28.08s"
-			durationms="28080"
+			duration="1.7m"
+			durationms="100525"
 			type="test-suite"
-			rid="144ae89d00f72946"
+			rid="6831ce0cf14b960"
 			totalerrorcount="0"
 			totalwarningcount="0"
 			totalsuccesstestcasecount="1"
@@ -49,7 +49,7 @@
 			childsuccesscount="1"
 			childfailedcount="0"
 			childblockedcount="0"
-			totalsuccesscount="3"
+			totalsuccesscount="5"
 			totalfailedcount="0"
 			totalblockedcount="0"
 			totalmaintenancemodecount="0"
@@ -68,19 +68,19 @@
 			</params>
 			<activity
 				result="Success"
-				duration="28.05s"
-				durationms="28045"
+				duration="1.7m"
+				durationms="100492"
 				type="test-case"
-				rid="2e9d71de1bf5e5d"
+				rid="e26126fc0a5b8a2"
 				totalerrorcount="0"
 				totalwarningcount="0"
 				totalsuccesstestcasecount="1"
 				totalfailedtestcasecount="0"
 				totalblockedtestcasecount="0"
-				childsuccesscount="3"
+				childsuccesscount="5"
 				childfailedcount="0"
 				childblockedcount="0"
-				totalsuccesscount="3"
+				totalsuccesscount="5"
 				totalfailedcount="0"
 				totalblockedcount="0"
 				totalmaintenancemodecount="0"
@@ -93,10 +93,10 @@
 				conditionstate="none">
 				<activity
 					result="Success"
-					duration="18.58s"
-					durationms="18582"
+					duration="19.68s"
+					durationms="19681"
 					type="iteration-container"
-					rid="13562366a0c924b8"
+					rid="1c6854a9ac22bbcd"
 					totalerrorcount="0"
 					totalwarningcount="0"
 					totalsuccesstestcasecount="0"
@@ -118,10 +118,10 @@
 					dataiterationcount="1">
 					<activity
 						result="Success"
-						duration="18.58s"
-						durationms="18575"
+						duration="19.67s"
+						durationms="19673"
 						type="smart-folder"
-						rid="1c5e926727415fc"
+						rid="329a98cd77ec390"
 						totalerrorcount="0"
 						totalwarningcount="0"
 						totalsuccesstestcasecount="0"
@@ -161,10 +161,10 @@
 						</datarow>
 						<activity
 							result="Success"
-							duration="18.57s"
-							durationms="18571"
+							duration="19.67s"
+							durationms="19670"
 							type="setup-container"
-							rid="f08d6d3bc2e6704"
+							rid="105c5a36c17cd8e0"
 							totalerrorcount="0"
 							totalwarningcount="0"
 							totalsuccesstestcasecount="0"
@@ -179,10 +179,10 @@
 							totalmaintenancemodecount="0">
 							<activity
 								result="Success"
-								duration="18.54s"
-								durationms="18543"
+								duration="19.63s"
+								durationms="19628"
 								type="test-module"
-								rid="2a2ce54c33028864"
+								rid="9e4b04237650d79"
 								totalerrorcount="0"
 								totalwarningcount="0"
 								totalsuccesstestcasecount="0"
@@ -221,10 +221,10 @@
 									</varbinding>
 								</varbindings>
 								<item
-									timeRelativeToTestSuiteStartTime="00:00.086"
-									timeRelativeToTestModuleStartTime="00:00.011"
-									timeWallClock="16:19:19"
-									time="00:00.086"
+									timeRelativeToTestSuiteStartTime="00:00.096"
+									timeRelativeToTestModuleStartTime="00:00.015"
+									timeWallClock="17:29:26"
+									time="00:00.096"
 									level="Info"
 									category="Data">
 									<message>
@@ -235,10 +235,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:00.140"
+									timeRelativeToTestSuiteStartTime="00:00.146"
 									timeRelativeToTestModuleStartTime="00:00.065"
-									timeWallClock="16:19:20"
-									time="00:00.140"
+									timeWallClock="17:29:26"
+									time="00:00.146"
 									level="Info"
 									category="Application">
 									<message>
@@ -252,10 +252,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:00.468"
-									timeRelativeToTestModuleStartTime="00:00.393"
-									timeWallClock="16:19:20"
-									time="00:00.468"
+									timeRelativeToTestSuiteStartTime="00:00.511"
+									timeRelativeToTestModuleStartTime="00:00.430"
+									timeWallClock="17:29:26"
+									time="00:00.511"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -275,10 +275,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:15.216"
-									timeRelativeToTestModuleStartTime="00:15.141"
-									timeWallClock="16:19:35"
-									time="00:15.216"
+									timeRelativeToTestSuiteStartTime="00:15.507"
+									timeRelativeToTestModuleStartTime="00:15.426"
+									timeWallClock="17:29:41"
+									time="00:15.507"
 									level="Info"
 									category="Section">
 									<message>
@@ -292,10 +292,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:15.256"
-									timeRelativeToTestModuleStartTime="00:15.181"
-									timeWallClock="16:19:35"
-									time="00:15.256"
+									timeRelativeToTestSuiteStartTime="00:15.569"
+									timeRelativeToTestModuleStartTime="00:15.488"
+									timeWallClock="17:29:41"
+									time="00:15.569"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -315,10 +315,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:15.698"
-									timeRelativeToTestModuleStartTime="00:15.624"
-									timeWallClock="16:19:35"
-									time="00:15.698"
+									timeRelativeToTestSuiteStartTime="00:16.072"
+									timeRelativeToTestModuleStartTime="00:15.991"
+									timeWallClock="17:29:42"
+									time="00:16.072"
 									level="Info"
 									category="Validation">
 									<message>
@@ -338,10 +338,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:15.764"
-									timeRelativeToTestModuleStartTime="00:15.689"
-									timeWallClock="16:19:35"
-									time="00:15.764"
+									timeRelativeToTestSuiteStartTime="00:16.203"
+									timeRelativeToTestModuleStartTime="00:16.122"
+									timeWallClock="17:29:42"
+									time="00:16.203"
 									level="Success"
 									category="Validation">
 									<message>
@@ -361,10 +361,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:15.897"
-									timeRelativeToTestModuleStartTime="00:15.823"
-									timeWallClock="16:19:35"
-									time="00:15.897"
+									timeRelativeToTestSuiteStartTime="00:16.352"
+									timeRelativeToTestModuleStartTime="00:16.271"
+									timeWallClock="17:29:42"
+									time="00:16.352"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -384,10 +384,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.382"
-									timeRelativeToTestModuleStartTime="00:16.307"
-									timeWallClock="16:19:36"
-									time="00:16.382"
+									timeRelativeToTestSuiteStartTime="00:16.932"
+									timeRelativeToTestModuleStartTime="00:16.851"
+									timeWallClock="17:29:43"
+									time="00:16.932"
 									level="Info"
 									category="Validation">
 									<message>
@@ -407,10 +407,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.442"
-									timeRelativeToTestModuleStartTime="00:16.367"
-									timeWallClock="16:19:36"
-									time="00:16.442"
+									timeRelativeToTestSuiteStartTime="00:17.046"
+									timeRelativeToTestModuleStartTime="00:16.965"
+									timeWallClock="17:29:43"
+									time="00:17.046"
 									level="Success"
 									category="Validation">
 									<message>
@@ -430,10 +430,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.565"
-									timeRelativeToTestModuleStartTime="00:16.490"
-									timeWallClock="16:19:36"
-									time="00:16.565"
+									timeRelativeToTestSuiteStartTime="00:17.195"
+									timeRelativeToTestModuleStartTime="00:17.114"
+									timeWallClock="17:29:43"
+									time="00:17.195"
 									level="Info"
 									category="Validation">
 									<message>
@@ -453,10 +453,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.626"
-									timeRelativeToTestModuleStartTime="00:16.551"
-									timeWallClock="16:19:36"
-									time="00:16.626"
+									timeRelativeToTestSuiteStartTime="00:17.363"
+									timeRelativeToTestModuleStartTime="00:17.282"
+									timeWallClock="17:29:43"
+									time="00:17.363"
 									level="Success"
 									category="Validation">
 									<message>
@@ -476,10 +476,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.755"
-									timeRelativeToTestModuleStartTime="00:16.680"
-									timeWallClock="16:19:36"
-									time="00:16.755"
+									timeRelativeToTestSuiteStartTime="00:17.521"
+									timeRelativeToTestModuleStartTime="00:17.440"
+									timeWallClock="17:29:43"
+									time="00:17.521"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -499,10 +499,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:17.131"
-									timeRelativeToTestModuleStartTime="00:17.056"
-									timeWallClock="16:19:37"
-									time="00:17.131"
+									timeRelativeToTestSuiteStartTime="00:17.953"
+									timeRelativeToTestModuleStartTime="00:17.873"
+									timeWallClock="17:29:44"
+									time="00:17.953"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -522,10 +522,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:17.498"
-									timeRelativeToTestModuleStartTime="00:17.424"
-									timeWallClock="16:19:37"
-									time="00:17.498"
+									timeRelativeToTestSuiteStartTime="00:18.403"
+									timeRelativeToTestModuleStartTime="00:18.322"
+									timeWallClock="17:29:44"
+									time="00:18.403"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -545,10 +545,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:17.982"
-									timeRelativeToTestModuleStartTime="00:17.907"
-									timeWallClock="16:19:37"
-									time="00:17.982"
+									timeRelativeToTestSuiteStartTime="00:18.990"
+									timeRelativeToTestModuleStartTime="00:18.909"
+									timeWallClock="17:29:45"
+									time="00:18.990"
 									level="Info"
 									category="Section">
 									<message>
@@ -562,10 +562,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:18.022"
-									timeRelativeToTestModuleStartTime="00:17.947"
-									timeWallClock="16:19:37"
-									time="00:18.022"
+									timeRelativeToTestSuiteStartTime="00:19.081"
+									timeRelativeToTestModuleStartTime="00:19.000"
+									timeWallClock="17:29:45"
+									time="00:19.081"
 									level="Info"
 									category="Validation">
 									<message>
@@ -585,10 +585,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:18.447"
-									timeRelativeToTestModuleStartTime="00:18.372"
-									timeWallClock="16:19:38"
-									time="00:18.447"
+									timeRelativeToTestSuiteStartTime="00:19.506"
+									timeRelativeToTestModuleStartTime="00:19.425"
+									timeWallClock="17:29:45"
+									time="00:19.506"
 									level="Success"
 									category="Validation">
 									<message>
@@ -608,10 +608,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:18.588"
-									timeRelativeToTestModuleStartTime="00:18.513"
-									timeWallClock="16:19:38"
-									time="00:18.588"
+									timeRelativeToTestSuiteStartTime="00:19.654"
+									timeRelativeToTestModuleStartTime="00:19.573"
+									timeWallClock="17:29:45"
+									time="00:19.654"
 									level="Success"
 									category="User">
 									<message>
@@ -630,10 +630,10 @@
 				</activity>
 				<activity
 					result="Success"
-					duration="9.24s"
-					durationms="9239"
+					duration="11.04s"
+					durationms="11042"
 					type="iteration-container"
-					rid="11bea15bda50b506"
+					rid="1b1bb1f46f21a78"
 					totalerrorcount="0"
 					totalwarningcount="0"
 					totalsuccesstestcasecount="0"
@@ -655,10 +655,10 @@
 					dataiterationcount="1">
 					<activity
 						result="Success"
-						duration="9.24s"
-						durationms="9237"
+						duration="11.04s"
+						durationms="11041"
 						type="smart-folder"
-						rid="29fa8c6e503f3b6e"
+						rid="45e5c77b7190c7c"
 						totalerrorcount="0"
 						totalwarningcount="0"
 						totalsuccesstestcasecount="0"
@@ -684,7 +684,7 @@
 								MS SQL Server
 							</field>
 							<field
-								name="regWindowTitleVar">
+								name="regWindowTitleBar">
 								Register Server - [MS SQL Server
 							</field>
 							<field
@@ -715,13 +715,29 @@
 								name="SucessTestConn">
 								Successfully Connected to Database
 							</field>
+							<field
+								name="DBName">
+								msdb
+							</field>
+							<field
+								name="QueryStatment">
+								select * from backupfile
+							</field>
+							<field
+								name="EditPropTitleBar">
+								Edit Server Properties - [MS SQL Server&#32;
+							</field>
+							<field
+								name="addScript">
+								use msdb
+							</field>
 						</datarow>
 						<activity
 							result="Success"
-							duration="9.23s"
-							durationms="9234"
+							duration="11.04s"
+							durationms="11037"
 							type="test-module"
-							rid="21c23161178dd8f6"
+							rid="6a2c08190c946bc"
 							totalerrorcount="0"
 							totalwarningcount="0"
 							totalsuccesstestcasecount="0"
@@ -743,61 +759,61 @@
 							testentry-activity-type="testmodule">
 							<varbindings>
 								<varbinding
-									name="regWindowTitleVar"
-									value="Register Server - [MS SQL Server">
-								</varbinding>
-								<varbinding
-									name="serverTypeVar"
-									value="MS SQL Server">
-								</varbinding>
-								<varbinding
-									name="serverNameVar"
-									value="SqlServerNew">
-								</varbinding>
-								<varbinding
-									name="driverTypeVar"
-									value="jTDS">
-								</varbinding>
-								<varbinding
-									name="AuthTypeVar"
-									value="SQL Server Authentication">
-								</varbinding>
-								<varbinding
-									name="loginTxtVar"
-									value="testab">
-								</varbinding>
-								<varbinding
-									name="loginPwdVar"
-									value="synerzip1">
+									name="SuccessConnToDbVar"
+									value="Successfully Connected to Database">
 								</varbinding>
 								<varbinding
 									name="hostNameVar"
 									value="ULTP_792\SQLEXPRESS">
 								</varbinding>
 								<varbinding
-									name="SuccessConnToDbVar"
-									value="Successfully Connected to Database">
+									name="loginPwdVar"
+									value="synerzip1">
+								</varbinding>
+								<varbinding
+									name="loginTxtVar"
+									value="testab">
+								</varbinding>
+								<varbinding
+									name="AuthTypeVar"
+									value="SQL Server Authentication">
+								</varbinding>
+								<varbinding
+									name="driverTypeVar"
+									value="jTDS">
+								</varbinding>
+								<varbinding
+									name="serverNameVar"
+									value="SqlServerNew">
+								</varbinding>
+								<varbinding
+									name="serverTypeVar"
+									value="MS SQL Server">
+								</varbinding>
+								<varbinding
+									name="regWindowTitleVar"
+									value="Register Server - [MS SQL Server">
 								</varbinding>
 							</varbindings>
 							<item
-								timeRelativeToTestSuiteStartTime="00:18.631"
-								timeRelativeToTestModuleStartTime="00:00.002"
-								timeWallClock="16:19:38"
-								time="00:18.631"
+								timeRelativeToTestSuiteStartTime="00:19.736"
+								timeRelativeToTestModuleStartTime="00:00.003"
+								timeWallClock="17:29:46"
+								time="00:19.736"
 								level="Info"
 								category="Data">
 								<message>
-									Current variable values:<br/>$regWindowTitleVar = 'Register Server - [MS SQL Server', $serverTypeVar = 'MS SQL Server', $serverNameVar = 'SqlServerNew', $driverTypeVar = 'jTDS', $AuthTypeVar = 'SQL Server Authentication', $loginTxtVar = 'testab', $loginPwdVar = 'synerzip1', $hostNameVar = 'ULTP_792\SQLEXPRESS', $SuccessConnToDbVar = 'Successfully Connected to Database'
+									Current variable values:<br/>$SuccessConnToDbVar = 'Successfully Connected to Database', $hostNameVar = 'ULTP_792\SQLEXPRESS', $loginPwdVar = 'synerzip1', $loginTxtVar = 'testab', $AuthTypeVar = 'SQL Server Authentication', $driverTypeVar = 'jTDS', $serverNameVar = 'SqlServerNew', $serverTypeVar = 'MS SQL Server', $regWindowTitleVar = 'Register Server - [MS SQL Server'
 								</message>
 								<metainfo
 									loglvl="Info">
 								</metainfo>
 							</item>
 							<item
-								timeRelativeToTestSuiteStartTime="00:22.200"
-								timeRelativeToTestModuleStartTime="00:03.571"
-								timeWallClock="16:19:42"
-								time="00:22.200"
+								timeRelativeToTestSuiteStartTime="00:23.469"
+								timeRelativeToTestModuleStartTime="00:03.737"
+								timeWallClock="17:29:49"
+								time="00:23.469"
 								level="Success"
 								category="Validation">
 								<message>
@@ -805,15 +821,15 @@
 								</message>
 								<metainfo
 									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\RegisteredServer.cs"
-									codeline="144"
+									codeline="147"
 									loglvl="Success">
 								</metainfo>
 							</item>
 							<item
-								timeRelativeToTestSuiteStartTime="00:26.939"
-								timeRelativeToTestModuleStartTime="00:08.311"
-								timeWallClock="16:19:46"
-								time="00:26.939"
+								timeRelativeToTestSuiteStartTime="00:29.027"
+								timeRelativeToTestModuleStartTime="00:09.295"
+								timeWallClock="17:29:55"
+								time="00:29.027"
 								level="Success"
 								category="Validation">
 								<message>
@@ -821,7 +837,23 @@
 								</message>
 								<metainfo
 									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\RegisteredServer.cs"
-									codeline="176"
+									codeline="179"
+									loglvl="Success">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:30.242"
+								timeRelativeToTestModuleStartTime="00:10.509"
+								timeWallClock="17:29:56"
+								time="00:30.242"
+								level="Success"
+								category="Validation">
+								<message>
+									Server - 'SqlServerNew'  UnRegistered Successfully!!
+								</message>
+								<metainfo
+									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\RegisteredServer.cs"
+									codeline="193"
 									loglvl="Success">
 								</metainfo>
 							</item>
@@ -830,10 +862,418 @@
 				</activity>
 				<activity
 					result="Success"
-					duration="207ms"
-					durationms="207"
+					duration="5.43s"
+					durationms="5432"
+					type="iteration-container"
+					rid="84964f682ad8e28"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					displayName="Server_RightClick_PropertiesUpdate"
+					headertext="Server_RightClick_PropertiesUpdate"
+					testentry-activity-type="smartfolder"
+					iteration-exectype="dataiteration"
+					testcontainerid="dd26eb8b-60b3-472b-8d87-9e6648815e79"
+					datasource="ServerInfoConnector"
+					dataiterationcount="1">
+					<activity
+						result="Success"
+						duration="5.43s"
+						durationms="5430"
+						type="smart-folder"
+						rid="253721fe1530c627"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="Server_RightClick_PropertiesUpdate"
+						testcontainerid="dd26eb8b-60b3-472b-8d87-9e6648815e79"
+						headertext="Server_RightClick_PropertiesUpdate"
+						displayName="Server_RightClick_PropertiesUpdate"
+						iteration="1"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="ServerType">
+								MS SQL Server
+							</field>
+							<field
+								name="regWindowTitleBar">
+								Register Server - [MS SQL Server
+							</field>
+							<field
+								name="DriverType">
+								jTDS
+							</field>
+							<field
+								name="ServerName">
+								SqlServerNew
+							</field>
+							<field
+								name="AuthLogin">
+								SQL Server Authentication
+							</field>
+							<field
+								name="LogName">
+								testab
+							</field>
+							<field
+								name="Password">
+								synerzip1
+							</field>
+							<field
+								name="HostName">
+								ULTP_792\SQLEXPRESS
+							</field>
+							<field
+								name="SucessTestConn">
+								Successfully Connected to Database
+							</field>
+							<field
+								name="DBName">
+								msdb
+							</field>
+							<field
+								name="QueryStatment">
+								select * from backupfile
+							</field>
+							<field
+								name="EditPropTitleBar">
+								Edit Server Properties - [MS SQL Server&#32;
+							</field>
+							<field
+								name="addScript">
+								use msdb
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="5.43s"
+							durationms="5428"
+							type="test-module"
+							rid="95828b5071b19f0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="Server_PropertiesUpdate"
+							displayName="Server_PropertiesUpdate"
+							moduleid="a148252e-5f2c-40c6-81b1-8aa1f107a160"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="addScriptVar"
+									value="use msdb">
+								</varbinding>
+								<varbinding
+									name="editServerPropTitleVar"
+									value="Edit Server Properties - [MS SQL Server ">
+								</varbinding>
+								<varbinding
+									name="serverNameVar"
+									value="SqlServerNew">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:30.774"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="17:29:57"
+								time="00:30.774"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$addScriptVar = 'use msdb', $editServerPropTitleVar = 'Edit Server Properties - [MS SQL Server ', $serverNameVar = 'SqlServerNew'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:30.856"
+								timeRelativeToTestModuleStartTime="00:00.082"
+								timeWallClock="17:29:57"
+								time="00:30.856"
+								level="Info"
+								category="Validation">
+								<message>
+									Update Server properties in progress!!
+								</message>
+								<metainfo
+									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\Server_PropertiesUpdate.cs"
+									codeline="81"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:33.006"
+								timeRelativeToTestModuleStartTime="00:02.233"
+								timeWallClock="17:29:59"
+								time="00:33.006"
+								level="Success"
+								category="Validation">
+								<message>
+									Edit Server Property window opened!!
+								</message>
+								<metainfo
+									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\Server_PropertiesUpdate.cs"
+									codeline="100"
+									loglvl="Success">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:36.164"
+								timeRelativeToTestModuleStartTime="00:05.391"
+								timeWallClock="17:30:02"
+								time="00:36.164"
+								level="Success"
+								category="Validation">
+								<message>
+									Server Property Updated!!
+								</message>
+								<metainfo
+									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\Server_PropertiesUpdate.cs"
+									codeline="112"
+									loglvl="Success">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="1.1m"
+					durationms="64054"
+					type="iteration-container"
+					rid="21e6b1238372b7c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					displayName="Server_UnRegistration"
+					headertext="Server_UnRegistration"
+					testentry-activity-type="smartfolder"
+					iteration-exectype="dataiteration"
+					testcontainerid="3d4a1525-8354-4cc3-8a66-f00824d1990a"
+					datasource="ServerInfoConnector"
+					dataiterationcount="1">
+					<activity
+						result="Success"
+						duration="1.1m"
+						durationms="64053"
+						type="smart-folder"
+						rid="e0bbd95827b7c3a"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						testcontainername="Server_UnRegistration"
+						testcontainerid="3d4a1525-8354-4cc3-8a66-f00824d1990a"
+						headertext="Server_UnRegistration"
+						displayName="Server_UnRegistration"
+						iteration="1"
+						activity-exectype="dataiteration"
+						conditionstate="none">
+						<datarow>
+							<field
+								name="ServerType">
+								MS SQL Server
+							</field>
+							<field
+								name="regWindowTitleBar">
+								Register Server - [MS SQL Server
+							</field>
+							<field
+								name="DriverType">
+								jTDS
+							</field>
+							<field
+								name="ServerName">
+								SqlServerNew
+							</field>
+							<field
+								name="AuthLogin">
+								SQL Server Authentication
+							</field>
+							<field
+								name="LogName">
+								testab
+							</field>
+							<field
+								name="Password">
+								synerzip1
+							</field>
+							<field
+								name="HostName">
+								ULTP_792\SQLEXPRESS
+							</field>
+							<field
+								name="SucessTestConn">
+								Successfully Connected to Database
+							</field>
+							<field
+								name="DBName">
+								msdb
+							</field>
+							<field
+								name="QueryStatment">
+								select * from backupfile
+							</field>
+							<field
+								name="EditPropTitleBar">
+								Edit Server Properties - [MS SQL Server&#32;
+							</field>
+							<field
+								name="addScript">
+								use msdb
+							</field>
+						</datarow>
+						<activity
+							result="Success"
+							duration="1.1m"
+							durationms="64046"
+							type="test-module"
+							rid="2bf4850d1e3a704"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="UnRegisterServer"
+							displayName="UnRegisterServer"
+							moduleid="b97a5c1f-236c-4e50-8acd-19858a7bc1dc"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="unRegisterServerNameVar"
+									value="SqlServerNew">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:36.207"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="17:30:02"
+								time="00:36.207"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$unRegisterServerNameVar = 'SqlServerNew'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:37.033"
+								timeRelativeToTestModuleStartTime="00:00.826"
+								timeWallClock="17:30:03"
+								time="00:37.033"
+								level="Success"
+								category="Validation">
+								<message>
+									UnRegister Server process started!!
+								</message>
+								<metainfo
+									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\UnRegisterServer.cs"
+									codeline="64"
+									loglvl="Success">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:39.610"
+								timeRelativeToTestModuleStartTime="00:03.403"
+								timeWallClock="17:30:05"
+								time="00:39.610"
+								level="Success"
+								category="Validation">
+								<message>
+									Edit Server properties window opened!!
+								</message>
+								<metainfo
+									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\UnRegisterServer.cs"
+									codeline="90"
+									loglvl="Success">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="01:40.224"
+								timeRelativeToTestModuleStartTime="01:04.018"
+								timeWallClock="17:31:06"
+								time="01:40.224"
+								level="Success"
+								category="Validation">
+								<message>
+									Server - 'SqlServerNew'  UnRegistered Successfully!!
+								</message>
+								<metainfo
+									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\UnRegisterServer.cs"
+									codeline="82"
+									loglvl="Success">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="261ms"
+					durationms="261"
 					type="teardown-container"
-					rid="34b2277a25d22eab"
+					rid="1395a0a89384eec4"
 					totalerrorcount="0"
 					totalwarningcount="0"
 					totalsuccesstestcasecount="0"
@@ -848,10 +1288,10 @@
 					totalmaintenancemodecount="0">
 					<activity
 						result="Success"
-						duration="206ms"
-						durationms="206"
+						duration="259ms"
+						durationms="259"
 						type="test-module"
-						rid="1c7af5d23642b590"
+						rid="8039caee4ab7175"
 						totalerrorcount="0"
 						totalwarningcount="0"
 						totalsuccesstestcasecount="0"
@@ -878,10 +1318,10 @@
 							</varbinding>
 						</varbindings>
 						<item
-							timeRelativeToTestSuiteStartTime="00:27.869"
-							timeRelativeToTestModuleStartTime="00:00.001"
-							timeWallClock="16:19:47"
-							time="00:27.869"
+							timeRelativeToTestSuiteStartTime="01:40.265"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="17:31:06"
+							time="01:40.265"
 							level="Info"
 							category="Data">
 							<message>
@@ -892,10 +1332,10 @@
 							</metainfo>
 						</item>
 						<item
-							timeRelativeToTestSuiteStartTime="00:27.896"
-							timeRelativeToTestModuleStartTime="00:00.028"
-							timeWallClock="16:19:47"
-							time="00:27.896"
+							timeRelativeToTestSuiteStartTime="01:40.291"
+							timeRelativeToTestModuleStartTime="00:00.029"
+							timeWallClock="17:31:06"
+							time="01:40.291"
 							level="Info"
 							category="Application">
 							<message>

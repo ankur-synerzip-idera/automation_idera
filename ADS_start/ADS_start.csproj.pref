@@ -2,9 +2,7 @@
   <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="UserCodeModules\RegisteredServer.cs" />
     <Element value="ADS_start.rxtst" />
-    <Element value="ADS_startRepository.rxrep" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

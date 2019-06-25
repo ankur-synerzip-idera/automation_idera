@@ -113,6 +113,42 @@ namespace ADS_start
             set { _serverType1Repo = value; }
         }
 
+        string _deRegisterServerNameRepo = "SqlServerNew";
+
+        /// <summary>
+        /// Gets or sets the value of variable deRegisterServerNameRepo.
+        /// </summary>
+        [TestVariable("0a2d52e5-febc-470e-a9a9-22f9a8dbd8e6")]
+        public string deRegisterServerNameRepo
+        {
+            get { return _deRegisterServerNameRepo; }
+            set { _deRegisterServerNameRepo = value; }
+        }
+
+        string _unRegisterServerNameRepo = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable unRegisterServerNameRepo.
+        /// </summary>
+        [TestVariable("a22a1f6e-ab61-47d4-9688-78413c9ec2b1")]
+        public string unRegisterServerNameRepo
+        {
+            get { return _unRegisterServerNameRepo; }
+            set { _unRegisterServerNameRepo = value; }
+        }
+
+        string _ServerNameRepo = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable ServerNameRepo.
+        /// </summary>
+        [TestVariable("0b4e3dd5-45c3-4284-b60a-4a42c1fbafc3")]
+        public string ServerNameRepo
+        {
+            get { return _ServerNameRepo; }
+            set { _ServerNameRepo = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -381,11 +417,20 @@ namespace ADS_start
             ADS_startRepositoryFolders.ComboBoxListFolder _comboboxlist;
             ADS_startRepositoryFolders.JPanelFolder _jpanel;
             RepoItemInfo _registerservereleInfo;
-            RepoItemInfo _registerservertitlebarformeleInfo;
+            RepoItemInfo _regrservertitlebarformeleInfo;
             RepoItemInfo _testconnbtneleInfo;
             RepoItemInfo _saveserverregeleInfo;
             RepoItemInfo _closetestconneleInfo;
             RepoItemInfo _servertypeeleInfo;
+            RepoItemInfo _servermaineleInfo;
+            RepoItemInfo _unregisterservereleInfo;
+            RepoItemInfo _unregisterpopupbuttonyeseleInfo;
+            RepoItemInfo _sqlservernewInfo;
+            RepoItemInfo _serverpropertieseleInfo;
+            RepoItemInfo _scriptmenueleInfo;
+            RepoItemInfo _scriptediteleInfo;
+            RepoItemInfo _saveserverpropeleInfo;
+            RepoItemInfo _schemachangepopupeleInfo;
 
             /// <summary>
             /// Creates a new Datastudio  folder.
@@ -397,11 +442,20 @@ namespace ADS_start
                 _comboboxlist = new ADS_startRepositoryFolders.ComboBoxListFolder(this);
                 _jpanel = new ADS_startRepositoryFolders.JPanelFolder(this);
                 _registerservereleInfo = new RepoItemInfo(this, "RegisterServerEle", "?/?/menuitem[@text='Register Server']", 30000, null, "901d7c4b-ac71-4a8b-9fd8-ee893a8af108");
-                _registerservertitlebarformeleInfo = new RepoItemInfo(this, "RegisterServerTitleBarFormEle", "titlebar[@accessiblerole='TitleBar']", 30000, null, "f51fcf82-8b96-4702-be12-733d436a525c");
+                _regrservertitlebarformeleInfo = new RepoItemInfo(this, "RegrServerTitleBarFormEle", "titlebar[@accessiblerole='TitleBar']", 30000, null, "f51fcf82-8b96-4702-be12-733d436a525c");
                 _testconnbtneleInfo = new RepoItemInfo(this, "TestConnBtnEle", "container[@type='Iꅟꎴꏁͦ7for']/?/?/button[@name='fYo']", 30000, null, "25849581-d360-4865-8b2e-5b0895c86adf");
                 _saveserverregeleInfo = new RepoItemInfo(this, "SaveServerRegEle", "container[@type='Iꅟꎴꏁͦ7for']/?/?/button[@name='fxO']", 30000, null, "c8eb4347-55f9-499f-a71b-2a42c1d41100");
                 _closetestconneleInfo = new RepoItemInfo(this, "CloseTestConnEle", "container[@type='JPanel']/container[@type='Iꅟꎴꏁͦ7for']//button[@name='defaultButton']", 30000, null, "bec9ae60-cd28-4dbf-b05b-e71a4ff48d21");
                 _servertypeeleInfo = new RepoItemInfo(this, "serverTypeEle", "?/?/container[@name='fXv']/?/?/container[@name='fXG']/?/?/list[@name='fXF']/listitem[@text=$serverTypeRepo]", 30000, null, "8acce1c8-3d71-409c-bf2e-d410e1f241df");
+                _servermaineleInfo = new RepoItemInfo(this, "ServerMainEle", "container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='fLp']//treeitem[@text=$ServerNameRepo]", 30000, null, "7f63d772-36b5-4e51-8c34-33f5f2637512");
+                _unregisterservereleInfo = new RepoItemInfo(this, "UnregisterServerEle", "?/?/menuitem[@text='Unregister Server']", 30000, null, "84f47009-bfac-4da9-8534-9469317e17a6");
+                _unregisterpopupbuttonyeseleInfo = new RepoItemInfo(this, "UnRegisterPopupButtonYesEle", "?/?/container[@name='OptionPane.buttonArea']/button[@text='Yes']", 30000, null, "75edcada-6cd7-449c-9ac3-18cf63c72948");
+                _sqlservernewInfo = new RepoItemInfo(this, "SqlServerNew", "container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='fLp']//treeitem[@text='SqlServerNew']", 30000, null, "626f2d9a-9bc8-43e5-8759-272e17769f0d");
+                _serverpropertieseleInfo = new RepoItemInfo(this, "ServerPropertiesEle", "?/?/menuitem[@text='Server Properties']", 30000, null, "0ceb77a7-c568-470b-85b8-52d48a3f1660");
+                _scriptmenueleInfo = new RepoItemInfo(this, "ScriptMenuEle", "?/?/tabpage[@title='Script   ']", 30000, null, "3ec45860-3fad-4e88-958e-032bce7361d7");
+                _scriptediteleInfo = new RepoItemInfo(this, "scriptEditEle", "container[@name='fSs']/container[@name='fYl']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']", 30000, null, "29a1cb0c-2012-4775-a596-6b1d9d85515a");
+                _saveserverpropeleInfo = new RepoItemInfo(this, "SaveServerPropEle", "container[@type='Iꅟꎴꏁͦ7for']/?/?/button[@name='defaultButton']", 30000, null, "29fd9fb8-e83c-42d8-818d-00d961799815");
+                _schemachangepopupeleInfo = new RepoItemInfo(this, "SchemaChangePopupEle", ".//container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[@name='OptionPane.label']", 30000, null, "bd1f7815-f054-44d2-bcd8-8b2d62b47f84");
             }
 
             /// <summary>
@@ -453,26 +507,26 @@ namespace ADS_start
             }
 
             /// <summary>
-            /// The RegisterServerTitleBarFormEle item.
+            /// The RegrServerTitleBarFormEle item.
             /// </summary>
             [RepositoryItem("f51fcf82-8b96-4702-be12-733d436a525c")]
-            public virtual Ranorex.TitleBar RegisterServerTitleBarFormEle
+            public virtual Ranorex.TitleBar RegrServerTitleBarFormEle
             {
                 get
                 {
-                    return _registerservertitlebarformeleInfo.CreateAdapter<Ranorex.TitleBar>(true);
+                    return _regrservertitlebarformeleInfo.CreateAdapter<Ranorex.TitleBar>(true);
                 }
             }
 
             /// <summary>
-            /// The RegisterServerTitleBarFormEle item info.
+            /// The RegrServerTitleBarFormEle item info.
             /// </summary>
             [RepositoryItemInfo("f51fcf82-8b96-4702-be12-733d436a525c")]
-            public virtual RepoItemInfo RegisterServerTitleBarFormEleInfo
+            public virtual RepoItemInfo RegrServerTitleBarFormEleInfo
             {
                 get
                 {
-                    return _registerservertitlebarformeleInfo;
+                    return _regrservertitlebarformeleInfo;
                 }
             }
 
@@ -569,6 +623,222 @@ namespace ADS_start
                 get
                 {
                     return _servertypeeleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ServerMainEle item.
+            /// </summary>
+            [RepositoryItem("7f63d772-36b5-4e51-8c34-33f5f2637512")]
+            public virtual Ranorex.TreeItem ServerMainEle
+            {
+                get
+                {
+                    return _servermaineleInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ServerMainEle item info.
+            /// </summary>
+            [RepositoryItemInfo("7f63d772-36b5-4e51-8c34-33f5f2637512")]
+            public virtual RepoItemInfo ServerMainEleInfo
+            {
+                get
+                {
+                    return _servermaineleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UnregisterServerEle item.
+            /// </summary>
+            [RepositoryItem("84f47009-bfac-4da9-8534-9469317e17a6")]
+            public virtual Ranorex.MenuItem UnregisterServerEle
+            {
+                get
+                {
+                    return _unregisterservereleInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UnregisterServerEle item info.
+            /// </summary>
+            [RepositoryItemInfo("84f47009-bfac-4da9-8534-9469317e17a6")]
+            public virtual RepoItemInfo UnregisterServerEleInfo
+            {
+                get
+                {
+                    return _unregisterservereleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UnRegisterPopupButtonYesEle item.
+            /// </summary>
+            [RepositoryItem("75edcada-6cd7-449c-9ac3-18cf63c72948")]
+            public virtual Ranorex.Button UnRegisterPopupButtonYesEle
+            {
+                get
+                {
+                    return _unregisterpopupbuttonyeseleInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UnRegisterPopupButtonYesEle item info.
+            /// </summary>
+            [RepositoryItemInfo("75edcada-6cd7-449c-9ac3-18cf63c72948")]
+            public virtual RepoItemInfo UnRegisterPopupButtonYesEleInfo
+            {
+                get
+                {
+                    return _unregisterpopupbuttonyeseleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SqlServerNew item.
+            /// </summary>
+            [RepositoryItem("626f2d9a-9bc8-43e5-8759-272e17769f0d")]
+            public virtual Ranorex.TreeItem SqlServerNew
+            {
+                get
+                {
+                    return _sqlservernewInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SqlServerNew item info.
+            /// </summary>
+            [RepositoryItemInfo("626f2d9a-9bc8-43e5-8759-272e17769f0d")]
+            public virtual RepoItemInfo SqlServerNewInfo
+            {
+                get
+                {
+                    return _sqlservernewInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ServerPropertiesEle item.
+            /// </summary>
+            [RepositoryItem("0ceb77a7-c568-470b-85b8-52d48a3f1660")]
+            public virtual Ranorex.MenuItem ServerPropertiesEle
+            {
+                get
+                {
+                    return _serverpropertieseleInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ServerPropertiesEle item info.
+            /// </summary>
+            [RepositoryItemInfo("0ceb77a7-c568-470b-85b8-52d48a3f1660")]
+            public virtual RepoItemInfo ServerPropertiesEleInfo
+            {
+                get
+                {
+                    return _serverpropertieseleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ScriptMenuEle item.
+            /// </summary>
+            [RepositoryItem("3ec45860-3fad-4e88-958e-032bce7361d7")]
+            public virtual Ranorex.TabPage ScriptMenuEle
+            {
+                get
+                {
+                    return _scriptmenueleInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ScriptMenuEle item info.
+            /// </summary>
+            [RepositoryItemInfo("3ec45860-3fad-4e88-958e-032bce7361d7")]
+            public virtual RepoItemInfo ScriptMenuEleInfo
+            {
+                get
+                {
+                    return _scriptmenueleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The scriptEditEle item.
+            /// </summary>
+            [RepositoryItem("29a1cb0c-2012-4775-a596-6b1d9d85515a")]
+            public virtual Ranorex.Unknown scriptEditEle
+            {
+                get
+                {
+                    return _scriptediteleInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The scriptEditEle item info.
+            /// </summary>
+            [RepositoryItemInfo("29a1cb0c-2012-4775-a596-6b1d9d85515a")]
+            public virtual RepoItemInfo scriptEditEleInfo
+            {
+                get
+                {
+                    return _scriptediteleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SaveServerPropEle item.
+            /// </summary>
+            [RepositoryItem("29fd9fb8-e83c-42d8-818d-00d961799815")]
+            public virtual Ranorex.Button SaveServerPropEle
+            {
+                get
+                {
+                    return _saveserverpropeleInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SaveServerPropEle item info.
+            /// </summary>
+            [RepositoryItemInfo("29fd9fb8-e83c-42d8-818d-00d961799815")]
+            public virtual RepoItemInfo SaveServerPropEleInfo
+            {
+                get
+                {
+                    return _saveserverpropeleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SchemaChangePopupEle item.
+            /// </summary>
+            [RepositoryItem("bd1f7815-f054-44d2-bcd8-8b2d62b47f84")]
+            public virtual Ranorex.Text SchemaChangePopupEle
+            {
+                get
+                {
+                    return _schemachangepopupeleInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SchemaChangePopupEle item info.
+            /// </summary>
+            [RepositoryItemInfo("bd1f7815-f054-44d2-bcd8-8b2d62b47f84")]
+            public virtual RepoItemInfo SchemaChangePopupEleInfo
+            {
+                get
+                {
+                    return _schemachangepopupeleInfo;
                 }
             }
 

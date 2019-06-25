@@ -48,7 +48,10 @@ namespace ADS_start.UserCodeModules
         public string serverNameVar
         {
         	get { return myRepo.windowTitleRepo; }
-        	set { myRepo.windowTitleRepo = value; }
+        	set { 
+        		myRepo.windowTitleRepo = value;
+        	myRepo.ServerNameRepo=value;
+        	}
         }
         
         
@@ -139,7 +142,7 @@ namespace ADS_start.UserCodeModules
              
              Delay.Duration(1000);             
              //validation
-             if ( myRepo.Datastudio.RegisterServerTitleBarFormEle.Text.Contains(regWindowTitleVar))
+             if ( myRepo.Datastudio.RegrServerTitleBarFormEle.Text.Contains(regWindowTitleVar))
              {
             	Report.Success("Validation","Register Server process statrted successfully!!!");
             }
@@ -184,6 +187,16 @@ namespace ADS_start.UserCodeModules
             myRepo.Datastudio.CloseTestConnEle.Click();
             
             myRepo.Datastudio.SaveServerRegEle.Click();
+            
+            if(myRepo.Datastudio.ServerMainEleInfo.Exists())
+            {
+				    Report.Success("Validation","Server - '"+serverNameVar+"'  UnRegistered Successfully!!");    
+            }
+            else
+            {
+             
+					Report.Failure("Validation","un register server process failed!!");	               	
+            }
 
 
         }
