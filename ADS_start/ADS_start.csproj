@@ -155,6 +155,18 @@
     <Compile Include="Program.cs">
       <id>2bb63732-2414-4b2c-a5ce-6dad79726aa1</id>
     </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>171ccd2d-6040-4d19-b199-3f1140f32f0b</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>19a70ea8-1c27-4ba7-9093-797ca57d76c2</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>171ccd2d-6040-4d19-b199-3f1140f32f0b</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c991de7a-a7a0-4b95-87fd-f34860d9eafb</id>
+    </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>e30f17e4-0be4-4bf9-818a-45d2bc6fbd84</BoundTo>
       <DependentUpon>StartAUT.rxrec</DependentUpon>
@@ -169,6 +181,9 @@
     </Compile>
     <Compile Include="UserCodeModules\Server_PropertiesUpdate.cs">
       <id>b84e9be2-4a8c-4c9c-a8d9-658133b65c3b</id>
+    </Compile>
+    <Compile Include="UserCodeModules\StartQueryAnalyzer.cs">
+      <id>e6555997-b9a5-479b-ad33-037ce7783c84</id>
     </Compile>
     <Compile Include="UserCodeModules\UnRegisterServer.cs">
       <id>82f6e40a-5227-438d-bb22-2a9dd772f1c3</id>
@@ -211,6 +226,11 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>4f925513-9ff5-4112-bed6-ea8a7aae29c2</id>
     </Content>
+    <None Include="Recording1.rxrec">
+      <BoundTo>10a1e1e2-4b7e-460d-b6aa-dedbe19e0795</BoundTo>
+      <id>171ccd2d-6040-4d19-b199-3f1140f32f0b</id>
+      <recordtableid>aa4167d9-202b-4df9-bbd8-9a4031fcf3cf</recordtableid>
+    </None>
     <None Include="StartAUT.rxrec">
       <BoundTo>10a1e1e2-4b7e-460d-b6aa-dedbe19e0795</BoundTo>
       <id>e30f17e4-0be4-4bf9-818a-45d2bc6fbd84</id>

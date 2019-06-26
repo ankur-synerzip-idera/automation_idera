@@ -16,6 +16,7 @@ F:\Idera_Automation\automation_idera\ADS_start\bin\Debug\AppInfo.csv
 F:\Idera_Automation\automation_idera\ADS_start\bin\Debug\ServerInfo.csv
 F:\Idera_Automation\automation_idera\ADS_start\bin\Debug\ADS_start.rxtmg
 F:\Idera_Automation\automation_idera\ADS_start\bin\Debug\ADS_start.rxtst
+F:\Idera_Automation\automation_idera\ADS_start\bin\Debug\RepositoryImages\ADS_startRepository09521d48.rximgres
 F:\Idera_Automation\automation_idera\ADS_start\bin\Debug\ADS_start.exe.config
 F:\Idera_Automation\automation_idera\ADS_start\bin\Debug\ADS_start.xml
 F:\Idera_Automation\automation_idera\ADS_start\bin\Debug\ADS_start.exe

@@ -59,6 +59,11 @@
             Gets or sets the value of variable ServerNameRepo.
             </summary>
         </member>
+        <member name="P:ADS_start.ADS_startRepository.QueryWindowNameRepo">
+            <summary>
+            Gets or sets the value of variable QueryWindowNameRepo.
+            </summary>
+        </member>
         <member name="P:ADS_start.ADS_startRepository.SelfInfo">
             <summary>
             The Self item info.
@@ -173,6 +178,69 @@
             <summary>
             The DatabaseServersEle item info.
             </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.SqlServerNew">
+            <summary>
+            The SqlServerNew item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.SqlServerNewInfo">
+            <summary>
+            The SqlServerNew item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.ServerMenuEle">
+            <summary>
+            The ServerMenuEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.ServerMenuEleInfo">
+            <summary>
+            The ServerMenuEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.DbSchemaNameEle">
+            <summary>
+            The DbSchemaNameEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.DbSchemaNameEleInfo">
+            <summary>
+            The DbSchemaNameEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.TestabAtSqlServerNewUntitled31">
+            <summary>
+            The TestabAtSqlServerNewUntitled31 item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.TestabAtSqlServerNewUntitled31Info">
+            <summary>
+            The TestabAtSqlServerNewUntitled31 item info.
+            </summary>
+        </member>
+        <member name="T:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.DbSchemaNameEleInfoClass">
+            <summary>
+            The DbSchemaNameEleInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.DbSchemaNameEleInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            DbSchemaNameEleInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.DbSchemaNameEleInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.DbSchemaNameEleInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
         </member>
         <member name="T:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder">
             <summary>
@@ -342,6 +410,26 @@
         <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.SchemaChangePopupEleInfo">
             <summary>
             The SchemaChangePopupEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.QueryAnalyzerEle">
+            <summary>
+            The QueryAnalyzerEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.QueryAnalyzerEleInfo">
+            <summary>
+            The QueryAnalyzerEle item info.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.QueryAnalyzerWindowTitleEle">
+            <summary>
+            The QueryAnalyzerWindowTitleEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.QueryAnalyzerWindowTitleEleInfo">
+            <summary>
+            The QueryAnalyzerWindowTitleEle item info.
             </summary>
         </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ContainerFYs">
@@ -553,6 +641,45 @@
             Gets or sets the value of variable CloseAutProcessIDVar.
             </summary>
         </member>
+        <member name="T:ADS_start.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:ADS_start.Recording1.repo">
+            <summary>
+            Holds an instance of the ADS_startRepository repository.
+            </summary>
+        </member>
+        <member name="M:ADS_start.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ADS_start.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ADS_start.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ADS_start.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ADS_start.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ADS_start.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:ADS_start.StartAUT">
              <summary>
             The StartAUT recording.
@@ -623,6 +750,24 @@
             </summary>
         </member>
         <member name="M:ADS_start.Server_PropertiesUpdate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:ADS_start.StartQueryAnalyzer">
+            <summary>
+            Description of StartQueryAnalyzer.
+            </summary>
+        </member>
+        <member name="M:ADS_start.StartQueryAnalyzer.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ADS_start.StartQueryAnalyzer.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this module.
             </summary>

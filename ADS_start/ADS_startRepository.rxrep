@@ -102,6 +102,56 @@ SUVORK5CYII=
 			searchtimeout="30000ms">
 				/form[@title&gt;'Aqua Data Studio - [Evalu']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='fLp']/?/?/treeitem[@text='Local Database Servers']
 			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="ae0a3676-ec8e-48ce-88f7-4c7000f63f13"
+			name="SqlServerNew"
+			refimgid="abc03277-55a1-48e5-8ce8-ac36c521a082"
+			refpath="/form[@title>'Aqua Data Studio - [Evaluation]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container/container[@type='NonOpaquePanel']/container/container/container[@type='ContentManagerImpl$MyContentComponent']/container/container/container/tree/treeitem/treeitem/treeitem[@text='SqlServerNew']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Aqua Data Studio - [Evalu']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='fLp']//treeitem[@text='SqlServerNew']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="34473eff-4bfb-4aac-9348-b91e76924012"
+			name="ServerMenuEle"
+			refimgid="c37c3dea-ed11-49be-8b56-e716a7adadd5"
+			refpath="/form[@title>'Aqua Data Studio - [Evaluation]']/menubar[@name='menuBar']/menuitem[@text='Server']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Aqua Data Studio - [Evalu']/?/?/menuitem[@text='Server']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="8c59bb66-8db4-4b94-a8b6-f4bbe5b498f7"
+			name="DbSchemaNameEle"
+			refimgid="b139b173-157c-4d9f-8411-fbcb9f2e56a1"
+			refpath="/form[@title>'Aqua Data Studio - [Evaluation]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container/container/container[3]/container/container/container[@name='gEv']/container[3]/container/combobox/text[@type='BasicComboBoxEditor$BorderlessTextField']"
+			searchtimeout="30000ms">
+				<image
+				guid="144f7111-9b68-4115-ba9f-939ca8688b1d"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAAE4AAAASCAYAAAD15uiRAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAOFJREFUWEft1dsNwyAMBVCv5YW8Tdkm2SUscwsEE4f2o7H6hXwlFHAe
+EkdACBFXAs6ZgHMm4Jz5H1xOYE44+jX38qoJOGcCzpkBxywQJhARZM9Io3/ez4nbuDWFqUha6/UT
+7voWESMtqHjB6QR3uSZb+4pBgm5YyoKtjKTAKOxtxRmsBr7gCjQrzqyiqX90JDJ4t+dqLNxct+8t
+kp/gBoIB3L4BlXHAmX7FkHFQ1fOP8Toq4ueWnOFafezndfJwq56NVaudh71Wzj1Fnn8YirhSBlzk
+WQLOmYBzJuCcCThXgDenUAspzNHTIgAAAABJRU5ErkJggg==
+				</image>
+				/form[@title&gt;'Aqua Data Studio - [Evalu']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[@accessiblename='testab@SqlServerNew [Untitled 3]']/container[3]//container[@name='gEv']//combobox[@name='dZ']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="a3ac2d3f-6ceb-451f-ab96-f2f8e0edaaf9"
+			name="TestabAtSqlServerNewUntitled31"
+			refimgid="7320412c-486f-48eb-8fb0-4d25be1a9713"
+			refpath="/form[@title>'Aqua Data Studio - [Evaluation]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container/container/tabpage[@title>'testab@SqlServerNew [Untitled' and @index='1']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Aqua Data Studio - [Evalu']/?/?/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@index='1']
+			</item>
 			<basepath>
 				/form[@title&gt;'Aqua Data Studio - [Evalu']
 			</basepath>
@@ -409,6 +459,25 @@ SUVORK5CYII=
 			searchtimeout="30000ms">
 				/form[@processname='datastudio']//container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[@name='OptionPane.label']
 			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="363577a4-cf47-434c-abb8-ede23baceac1"
+			name="QueryAnalyzerEle"
+			refimgid="4300865e-e209-48cf-9392-9b5534548680"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Query Analyzer']"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/menuitem[@text='Query Analyzer']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="ade73a48-3c8d-4d49-85a3-f37009fdea3f"
+			name="QueryAnalyzerWindowTitleEle"
+			refimgid="f57d5914-b540-4430-87a3-5dd6d4a210a8"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title&gt;$QueryWindowNameRepo]
+			</item>
 			<basepath>
 				/form[@processname='datastudio']
 			</basepath>
@@ -466,6 +535,10 @@ Et1VDAAAAABJRU5ErkJggg==
 		<var
 		id="0b4e3dd5-45c3-4284-b60a-4a42c1fbafc3"
 		name="ServerNameRepo">
+		</var>
+		<var
+		id="e9469612-a759-408d-a953-1561f7d804ee"
+		name="QueryWindowNameRepo">
 		</var>
 	</variables>
 </repository>

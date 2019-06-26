@@ -104,6 +104,7 @@ namespace ADS_start
         		myRepo.Datastudio.scriptEditEle.PressKeys("{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}"); 
         		myRepo.Datastudio.scriptEditEle.PressKeys(addScriptVar);
         		myRepo.Datastudio.SaveServerPropEle.Click(); 
+        		Thread.Sleep(400);
 //        		if(myRepo.Datastudio.SchemaChangePopupEle !=null)
 //        		{
 //        			myRepo.Datastudio.UnRegisterPopupButtonYesEle.Click();

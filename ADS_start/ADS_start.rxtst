@@ -63,6 +63,26 @@
 			name="Server_Registration">
 			</smartfoldernode>
 			<testmodule
+			id="208c214e-539d-45e0-a84d-f2737e18c0de"
+			name="StartQueryAnalyzer"
+			ref="eb21e499-4bc5-42d1-9e5d-d4927a656b01"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="ServerName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="c3fccf8d-7c20-4094-8694-07e9e441e376"
+					variablename="ServerNameVar">
+					</var>
+					<var
+					dataname="LogName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="a521ba9f-f6d5-4acb-8290-7c4f88740036"
+					variablename="logNameVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="381e7ac5-f83a-4806-9660-519108ce59a7"
 			name="CloseAUT"
 			ref="79e2f5ed-08a7-4611-93a8-a4996e86b9bb"
@@ -112,6 +132,11 @@
 			id="3d4a1525-8354-4cc3-8a66-f00824d1990a"
 			name="Server_UnRegistration">
 			</smartfoldernode>
+			<smartfoldernode
+			datasource="ServerInfoConnector"
+			id="59887a12-d7f1-4abd-aabd-01c1b4e0cf39"
+			name="Server_RightClick_QueryAnalyzer">
+			</smartfoldernode>
 			<testmodule
 			id="5b3a6ee3-c17c-4c5f-ada8-7808a187c6d2"
 			name="UnRegisterServer"
@@ -142,6 +167,10 @@
 					<param
 					name="ServerNameGp"
 					value="MSSqlServer">
+					</param>
+					<param
+					name="QueryWindowIndexGP"
+					value="1">
 					</param>
 				</parameters>
 			</testcase>
@@ -263,6 +292,14 @@
 							name="UnRegisterServer">
 							</testmodule>
 						</smartfoldernode>
+						<smartfoldernode
+						id="59887a12-d7f1-4abd-aabd-01c1b4e0cf39"
+						name="Server_RightClick_QueryAnalyzer">
+							<testmodule
+							id="208c214e-539d-45e0-a84d-f2737e18c0de"
+							name="StartQueryAnalyzer">
+							</testmodule>
+						</smartfoldernode>
 						<teardown
 						id="66578557-4e17-4823-8aea-3f51f248ae11"
 						name="teardown">
@@ -296,6 +333,9 @@
 				</column>
 				<column>
 					Eval_Title
+				</column>
+				<column>
+					NewColumn
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -364,19 +404,13 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="0ffd4a5b-62e8-445f-8ca8-3d4a6d32203e">
-			</testcontainer>
-			<testcontainer
 			id="3ab2dd2f-dfb6-4076-b317-b8b63adade6a">
 			</testcontainer>
 			<testcontainer
-			id="3d4a1525-8354-4cc3-8a66-f00824d1990a">
+			id="59887a12-d7f1-4abd-aabd-01c1b4e0cf39">
 			</testcontainer>
 			<testcontainer
 			id="962b2020-9aab-4b7d-86f4-c61f4b197327">
-			</testcontainer>
-			<testcontainer
-			id="dd26eb8b-60b3-472b-8d87-9e6648815e79">
 			</testcontainer>
 			<testcontainer
 			id="f7fdbe75-404b-4170-9735-086d81f57b20">
