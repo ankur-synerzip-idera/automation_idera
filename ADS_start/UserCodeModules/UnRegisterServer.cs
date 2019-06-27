@@ -87,13 +87,13 @@ namespace ADS_start.UserCodeModules
         	Thread.Sleep(1000);
     		if(myRepo.Datastudio.RegrServerTitleBarFormEle.Text.Contains(UnRegServerPropTitleBar))
         	{
-        		Report.Success("Validation","Edit Server properties window opened!!");         	
+        		Report.Success("Validation","unregister sever confirmation window opened!!");         	
         			myRepo.Datastudio.UnRegisterPopupButtonYesEle.Click();
         			
         	}
         	else
         	{
-        		Report.Failure("Validation","Edit Server properties window not found!!");
+        		Report.Failure("Validation","unregister sever confirmation window not found!!");
         	}
         }
         	

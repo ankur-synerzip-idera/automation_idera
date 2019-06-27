@@ -82,6 +82,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="ServerInfoConnector"
+			id="24a29a81-c67c-4427-9429-7b2eff78ca40"
+			name="Server_MenuClick_QueryAnalyzer">
+			</smartfoldernode>
 			<testmodule
 			id="381e7ac5-f83a-4806-9660-519108ce59a7"
 			name="CloseAUT"
@@ -174,6 +179,26 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="c1b442a3-284a-4f6f-93b2-483da9ef4e03"
+			name="Server_MenuClick_QueryAnalyzer"
+			ref="0d2011b4-17a2-48a8-a61f-87c61130435e"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="ServerName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="855fdeac-55b1-4786-ade3-074e9a834205"
+					variablename="ServerNameVar">
+					</var>
+					<var
+					dataname="LogName"
+					datasourceid="aacb7f9e-df97-4b4d-a26a-7176b7a64737"
+					variableid="5722ac5c-e8f3-4ae7-ac2a-5e864621eadc"
+					variablename="logNameVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			datasource="ServerInfoConnector"
 			id="dd26eb8b-60b3-472b-8d87-9e6648815e79"
@@ -285,19 +310,27 @@
 							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
-						id="3d4a1525-8354-4cc3-8a66-f00824d1990a"
-						name="Server_UnRegistration">
-							<testmodule
-							id="5b3a6ee3-c17c-4c5f-ada8-7808a187c6d2"
-							name="UnRegisterServer">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
 						id="59887a12-d7f1-4abd-aabd-01c1b4e0cf39"
 						name="Server_RightClick_QueryAnalyzer">
 							<testmodule
 							id="208c214e-539d-45e0-a84d-f2737e18c0de"
 							name="StartQueryAnalyzer">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="24a29a81-c67c-4427-9429-7b2eff78ca40"
+						name="Server_MenuClick_QueryAnalyzer">
+							<testmodule
+							id="c1b442a3-284a-4f6f-93b2-483da9ef4e03"
+							name="Server_MenuClick_QueryAnalyzer">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="3d4a1525-8354-4cc3-8a66-f00824d1990a"
+						name="Server_UnRegistration">
+							<testmodule
+							id="5b3a6ee3-c17c-4c5f-ada8-7808a187c6d2"
+							name="UnRegisterServer">
 							</testmodule>
 						</smartfoldernode>
 						<teardown
@@ -404,13 +437,25 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="0ffd4a5b-62e8-445f-8ca8-3d4a6d32203e">
+			</testcontainer>
+			<testcontainer
+			id="24a29a81-c67c-4427-9429-7b2eff78ca40">
+			</testcontainer>
+			<testcontainer
 			id="3ab2dd2f-dfb6-4076-b317-b8b63adade6a">
+			</testcontainer>
+			<testcontainer
+			id="3d4a1525-8354-4cc3-8a66-f00824d1990a">
 			</testcontainer>
 			<testcontainer
 			id="59887a12-d7f1-4abd-aabd-01c1b4e0cf39">
 			</testcontainer>
 			<testcontainer
 			id="962b2020-9aab-4b7d-86f4-c61f4b197327">
+			</testcontainer>
+			<testcontainer
+			id="dd26eb8b-60b3-472b-8d87-9e6648815e79">
 			</testcontainer>
 			<testcontainer
 			id="f7fdbe75-404b-4170-9735-086d81f57b20">

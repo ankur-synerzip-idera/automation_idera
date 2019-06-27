@@ -189,16 +189,6 @@
             The SqlServerNew item info.
             </summary>
         </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.ServerMenuEle">
-            <summary>
-            The ServerMenuEle item.
-            </summary>
-        </member>
-        <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.ServerMenuEleInfo">
-            <summary>
-            The ServerMenuEle item info.
-            </summary>
-        </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.AquaDataStudioEvaluationAppFolder.DbSchemaNameEle">
             <summary>
             The DbSchemaNameEle item.
@@ -432,6 +422,16 @@
             The QueryAnalyzerWindowTitleEle item info.
             </summary>
         </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ServerMenuEle">
+            <summary>
+            The ServerMenuEle item.
+            </summary>
+        </member>
+        <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ServerMenuEleInfo">
+            <summary>
+            The ServerMenuEle item info.
+            </summary>
+        </member>
         <member name="P:ADS_start.ADS_startRepositoryFolders.DatastudioAppFolder.ContainerFYs">
             <summary>
             The ContainerFYs folder.
@@ -641,45 +641,6 @@
             Gets or sets the value of variable CloseAutProcessIDVar.
             </summary>
         </member>
-        <member name="T:ADS_start.Recording1">
-             <summary>
-            The Recording1 recording.
-             </summary>
-        </member>
-        <member name="F:ADS_start.Recording1.repo">
-            <summary>
-            Holds an instance of the ADS_startRepository repository.
-            </summary>
-        </member>
-        <member name="M:ADS_start.Recording1.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:ADS_start.Recording1.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:ADS_start.Recording1.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:ADS_start.Recording1.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:ADS_start.Recording1.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:ADS_start.Recording1.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:ADS_start.StartAUT">
              <summary>
             The StartAUT recording.
@@ -738,6 +699,24 @@
             <summary>
             Gets or sets the value of variable varLicense_Title.
             </summary>
+        </member>
+        <member name="T:ADS_start.UserCodeModules.Server_MenuClick_QueryAnalyzer">
+            <summary>
+            Description of Server_MenuClick_QueryAnalyzer.
+            </summary>
+        </member>
+        <member name="M:ADS_start.UserCodeModules.Server_MenuClick_QueryAnalyzer.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ADS_start.UserCodeModules.Server_MenuClick_QueryAnalyzer.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
         </member>
         <member name="T:ADS_start.Server_PropertiesUpdate">
             <summary>

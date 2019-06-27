@@ -1,13 +1,14 @@
 ﻿<Properties>
-  <Array name="active" />
-  <Array name="bookmarks" />
+  <Array name="active">
+    <Element value="ADS_start.rxtst" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|F:\Idera_Automation\automation_idera\ADS_start\Program.cs|39|17|True|Break||" />
+    <Element value="Breakpoint|F:\Idera_Automation\automation_idera\ADS_start\StartAUT.cs|43|9|True|Break||" />
+    <Element value="Breakpoint|F:\Idera_Automation\automation_idera\ADS_start\StartAUT.cs|115|9|True|Break||" />
+  </Array>
   <Array name="files">
     <Element value="ADS_start.rxtst" />
-    <Element value="UserCodeModules\Server_PropertiesUpdate.cs" />
-    <Element value="UserCodeModules\StartQueryAnalyzer.cs" />
-    <Element value="ADS_startRepository.rxrep" />
-    <Element value="Recording1.rxrec" />
-    <Element value="Recording1.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

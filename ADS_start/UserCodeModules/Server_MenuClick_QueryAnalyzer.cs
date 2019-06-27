@@ -1,8 +1,8 @@
 ﻿/*
  * Created by Ranorex
  * User: smitar
- * Date: 26-06-2019
- * Time: 11:24 AM
+ * Date: 27-06-2019
+ * Time: 12:47 PM
  * 
  * To change this template use Tools > Options > Coding > Edit standard headers.
  */
@@ -18,26 +18,29 @@ using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Testing;
 
-namespace ADS_start
+namespace ADS_start.UserCodeModules
 {
+	
     /// <summary>
-    /// Description of StartQueryAnalyzer.
+    /// Description of Server_MenuClick_QueryAnalyzer.
     /// </summary>
-    [TestModule("EB21E499-4BC5-42D1-9E5D-D4927A656B01", ModuleType.UserCode, 1)]
-    public class StartQueryAnalyzer : ITestModule
+    [TestModule("0D2011B4-17A2-48A8-A61F-87C61130435E", ModuleType.UserCode, 1)]
+    public class Server_MenuClick_QueryAnalyzer : ITestModule
     {
+    	
+    	string verifyTitle=string.Empty;
+    	int index=0;
     	private static ADS_startRepository myRepo;
-		
-    	/// <summary>
+        /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public StartQueryAnalyzer()
+        public Server_MenuClick_QueryAnalyzer()
         {
-        	myRepo=new ADS_startRepository();
+            // Do not delete - a parameterless constructor is required!
+            myRepo=new ADS_startRepository();
         }
-
-        
-        [TestVariable("c3fccf8d-7c20-4094-8694-07e9e441e376")]
+      
+        [TestVariable("855fdeac-55b1-4786-ade3-074e9a834205")]
         public string ServerNameVar
         {
         	get { return myRepo.ServerNameRepo; }
@@ -45,13 +48,14 @@ namespace ADS_start
         }
         
         string _logNameVar = "";
-        [TestVariable("a521ba9f-f6d5-4acb-8290-7c4f88740036")]
+        [TestVariable("5722ac5c-e8f3-4ae7-ac2a-5e864621eadc")]
         public string logNameVar
         {
         	get { return _logNameVar; }
         	set { _logNameVar = value; }
         }
         
+
         /// <summary>
         /// Performs the playback of actions in this module.
         /// </summary>
@@ -60,31 +64,53 @@ namespace ADS_start
         /// that will in turn invoke this method.</remarks>
         void ITestModule.Run()
         {
-        	Mouse.DefaultMoveTime = 300;
+            Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
+            Opeartion();
+            Validation_OpenQA();
+            Validation_CheckQA();
+            
+        	        	
+            
+        }
+    	
+		private void Opeartion()
+		{
+			try {				
+			
+			// Get Query analyzer window count
+            index= Convert.ToInt32(TestSuite.Current.Parameters["QueryWindowIndexGP"]);
         	
-        	
-        	int index=Convert.ToInt32(TestSuite.Current.Parameters["QueryWindowIndexGP"]);
-        	string verifyTitle=string.Empty;
         	if(index > 1)
         	{
         		verifyTitle = logNameVar+"@"+ServerNameVar+" [Untitled "+index.ToString()+"]";
         	}
         	else
         	{
-        		verifyTitle = logNameVar+"@"+ServerNameVar+" [Untitled]";
+        		verifyTitle = logNameVar+"@"+ServerNameVar+" [Untitled]"; 
         	}
         	Report.Info("QueryWindowIndex",index.ToString());
-            
-            if(myRepo.Datastudio.ServerMainEle.Text.Contains(ServerNameVar))
+        	} catch (Exception ex) {
+				
+				Report.Error(ex.InnerException.ToString());
+			}
+		}
+    	
+		private void Validation_OpenQA()
+		{
+			try {
+				
+			
+			//Ckeck server Name
+        	if(myRepo.Datastudio.ServerMainEle.Text.Contains(ServerNameVar))
             {
             	Report.Info("Validation","Open Query analyzer process starts!!");
 	            //Click on server
 	            myRepo.Datastudio.ServerMainEle.Click();
 	            
-	            //Right click on same element
-	            myRepo.Datastudio.ServerMainEle.Click(System.Windows.Forms.MouseButtons.Right);
+	            //Select 'Server' Menu option
+	            myRepo.Datastudio.ServerMenuEle.Click();
         
 	            //Click on queryAnalyzer menu
 	            myRepo.Datastudio.QueryAnalyzerEle.Click();
@@ -93,18 +119,36 @@ namespace ADS_start
             {
             	Report.Failure("Validation","Server not found!!");
             }
-            myRepo.Datastudio.QueryAnalyzerWindowTitleEleInfo.WaitForExists(400);
+            } catch (Exception ex) {
+				
+				Report.Error(ex.InnerException.ToString());
+			}
+		}
+    	
+		private void Validation_CheckQA()
+		{
+			try {
+			
+			myRepo.QueryWindowNameRepo=verifyTitle;
+            Report.Info("verifyTitle- " +verifyTitle);
+            Report.Info("myRepo.Datastudio.QueryAnalyzerWindowTitleEle.Title - " + myRepo.Datastudio.QueryAnalyzerWindowTitleEle.Title);
+            myRepo.Datastudio.QueryAnalyzerWindowTitleEle.Click();
              //Validating if queryanalyzer window is open
              if(myRepo.Datastudio.QueryAnalyzerWindowTitleEle.Title.Contains(verifyTitle))
              {
-             	Report.Success("Validation","By right Click, Query analyzer Opened!!");
+             	Report.Success("Validation","By Menu, Query analyzer Opened!!");
              }
              else
              {
-            	Report.Failure("Validation","By right Click, Query analyzer not found!!");
+            	Report.Failure("Validation","By Menu, Query analyzer not found!!");
              }
              TestSuite.Current.Parameters["QueryWindowIndexGP"]=Convert.ToString(index+1);
              Report.Info("QueryWindowIndex",TestSuite.Current.Parameters["QueryWindowIndexGP"]);
-        }
+             	
+			} catch (Exception ex) {
+				
+				Report.Error(ex.InnerException.ToString());
+			}
+		}
     }
 }

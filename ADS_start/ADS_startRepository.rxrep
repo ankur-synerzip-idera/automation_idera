@@ -113,16 +113,6 @@ SUVORK5CYII=
 				/form[@title&gt;'Aqua Data Studio - [Evalu']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='fLp']//treeitem[@text='SqlServerNew']
 			</item>
 			<item
-			addcaps="menuitem,javaelement"
-			capname="menuitem"
-			id="34473eff-4bfb-4aac-9348-b91e76924012"
-			name="ServerMenuEle"
-			refimgid="c37c3dea-ed11-49be-8b56-e716a7adadd5"
-			refpath="/form[@title>'Aqua Data Studio - [Evaluation]']/menubar[@name='menuBar']/menuitem[@text='Server']"
-			searchtimeout="30000ms">
-				/form[@title&gt;'Aqua Data Studio - [Evalu']/?/?/menuitem[@text='Server']
-			</item>
-			<item
 			addcaps="text,javaelement"
 			capname="text"
 			id="8c59bb66-8db4-4b94-a8b6-f4bbe5b498f7"
@@ -477,6 +467,15 @@ SUVORK5CYII=
 			refimgid="f57d5914-b540-4430-87a3-5dd6d4a210a8"
 			searchtimeout="30000ms">
 				/form[@processname='datastudio']/?/?/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title&gt;$QueryWindowNameRepo]
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="34473eff-4bfb-4aac-9348-b91e76924012"
+			name="ServerMenuEle"
+			refimgid="c37c3dea-ed11-49be-8b56-e716a7adadd5"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']/?/?/menuitem[@text='Server']
 			</item>
 			<basepath>
 				/form[@processname='datastudio']

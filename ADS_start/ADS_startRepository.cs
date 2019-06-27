@@ -336,7 +336,6 @@ namespace ADS_start
             RepoItemInfo _aquadatastudioevaluationInfo;
             RepoItemInfo _databaseserverseleInfo;
             RepoItemInfo _sqlservernewInfo;
-            RepoItemInfo _servermenueleInfo;
             DbSchemaNameEleInfoClass _dbschemanameeleInfo;
             RepoItemInfo _testabatsqlservernewuntitled31Info;
 
@@ -349,7 +348,6 @@ namespace ADS_start
                 _aquadatastudioevaluationInfo = new RepoItemInfo(this, "AquaDataStudioEvaluation", "titlebar[@accessiblerole='TitleBar']", 30000, null, "905a42f9-8c43-4f69-bf97-5202952990bf");
                 _databaseserverseleInfo = new RepoItemInfo(this, "DatabaseServersEle", "container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='fLp']/?/?/treeitem[@text='Local Database Servers']", 30000, null, "134da088-e423-4baf-91a3-d7088f21cea7");
                 _sqlservernewInfo = new RepoItemInfo(this, "SqlServerNew", "container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='fLp']//treeitem[@text='SqlServerNew']", 30000, null, "ae0a3676-ec8e-48ce-88f7-4c7000f63f13");
-                _servermenueleInfo = new RepoItemInfo(this, "ServerMenuEle", "?/?/menuitem[@text='Server']", 30000, null, "34473eff-4bfb-4aac-9348-b91e76924012");
                 _dbschemanameeleInfo = new DbSchemaNameEleInfoClass(this);
                 _testabatsqlservernewuntitled31Info = new RepoItemInfo(this, "TestabAtSqlServerNewUntitled31", "?/?/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@index='1']", 30000, null, "a3ac2d3f-6ceb-451f-ab96-f2f8e0edaaf9");
             }
@@ -486,30 +484,6 @@ namespace ADS_start
             }
 
             /// <summary>
-            /// The ServerMenuEle item.
-            /// </summary>
-            [RepositoryItem("34473eff-4bfb-4aac-9348-b91e76924012")]
-            public virtual Ranorex.MenuItem ServerMenuEle
-            {
-                get
-                {
-                    return _servermenueleInfo.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ServerMenuEle item info.
-            /// </summary>
-            [RepositoryItemInfo("34473eff-4bfb-4aac-9348-b91e76924012")]
-            public virtual RepoItemInfo ServerMenuEleInfo
-            {
-                get
-                {
-                    return _servermenueleInfo;
-                }
-            }
-
-            /// <summary>
             /// The DbSchemaNameEle item.
             /// </summary>
             [RepositoryItem("8c59bb66-8db4-4b94-a8b6-f4bbe5b498f7")]
@@ -584,6 +558,7 @@ namespace ADS_start
             RepoItemInfo _schemachangepopupeleInfo;
             RepoItemInfo _queryanalyzereleInfo;
             RepoItemInfo _queryanalyzerwindowtitleeleInfo;
+            RepoItemInfo _servermenueleInfo;
 
             /// <summary>
             /// Creates a new Datastudio  folder.
@@ -611,6 +586,7 @@ namespace ADS_start
                 _schemachangepopupeleInfo = new RepoItemInfo(this, "SchemaChangePopupEle", ".//container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[@name='OptionPane.label']", 30000, null, "bd1f7815-f054-44d2-bcd8-8b2d62b47f84");
                 _queryanalyzereleInfo = new RepoItemInfo(this, "QueryAnalyzerEle", "?/?/menuitem[@text='Query Analyzer']", 30000, null, "363577a4-cf47-434c-abb8-ede23baceac1");
                 _queryanalyzerwindowtitleeleInfo = new RepoItemInfo(this, "QueryAnalyzerWindowTitleEle", "?/?/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title>$QueryWindowNameRepo]", 30000, null, "ade73a48-3c8d-4d49-85a3-f37009fdea3f");
+                _servermenueleInfo = new RepoItemInfo(this, "ServerMenuEle", "?/?/menuitem[@text='Server']", 30000, null, "34473eff-4bfb-4aac-9348-b91e76924012");
             }
 
             /// <summary>
@@ -1042,6 +1018,30 @@ namespace ADS_start
                 get
                 {
                     return _queryanalyzerwindowtitleeleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ServerMenuEle item.
+            /// </summary>
+            [RepositoryItem("34473eff-4bfb-4aac-9348-b91e76924012")]
+            public virtual Ranorex.MenuItem ServerMenuEle
+            {
+                get
+                {
+                    return _servermenueleInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ServerMenuEle item info.
+            /// </summary>
+            [RepositoryItemInfo("34473eff-4bfb-4aac-9348-b91e76924012")]
+            public virtual RepoItemInfo ServerMenuEleInfo
+            {
+                get
+                {
+                    return _servermenueleInfo;
                 }
             }
 

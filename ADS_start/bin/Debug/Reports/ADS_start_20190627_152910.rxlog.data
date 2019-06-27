@@ -3,11 +3,11 @@
 	progress="">
 	<activity
 		result="Success"
-		duration="0ms"
-		durationms="0"
+		duration="8.8m"
+		durationms="530087"
 		type="root"
-		rid="1dca35da5b288ba"
-		totalerrorcount="0"
+		rid="f46dc0d524cfc6"
+		totalerrorcount="3"
 		totalwarningcount="0"
 		totalsuccesstestcasecount="1"
 		totalfailedtestcasecount="0"
@@ -28,20 +28,20 @@
 		oslanguage="en-US"
 		dtnlanguage="en-IN"
 		screenresolution="3286x1080"
-		timestamp="26-06-2019 14:28:20"
-		timestampiso="2019-06-26T08:58:20"
-		endtime="26-06-2019 14:28:45"
+		timestamp="27-06-2019 15:29:10"
+		timestampiso="2019-06-27T09:59:10"
+		endtime="27-06-2019 15:38:00"
 		timeoutfactor="1">
 		<detail>
 			Ranorex Testscript
 		</detail>
 		<activity
 			result="Success"
-			duration="22.2s"
-			durationms="22202"
+			duration="7.6m"
+			durationms="455424"
 			type="test-suite"
-			rid="12672c479d9354c7"
-			totalerrorcount="0"
+			rid="a2c8e0e38f6d3a8"
+			totalerrorcount="1"
 			totalwarningcount="0"
 			totalsuccesstestcasecount="1"
 			totalfailedtestcasecount="0"
@@ -70,18 +70,30 @@
 					1
 				</param>
 			</params>
+			<errormessage>
+				An internal error occurred while executing the test case. System.Threading.ThreadAbortException: Thread was being aborted.
+   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.RunChildren(IEnumerable`1 entries, TestResult overallResult, Boolean&amp; childSkip, Boolean&amp; tearDownPending)
+   at Ranorex.Core.Testing.TestCaseNode.RunChildren(Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.&lt;&gt;c__DisplayClass81_0.&lt;RunWithoutIterations&gt;b__0(RetryInfo retry)
+   at Ranorex.Core.Testing.Retry.DoRetry(Func`2 operationToRetry)
+   at Ranorex.Core.Testing.Retry.Do(Func`2 operationToRetry)
+   at Ranorex.Core.Testing.TestCaseNode.RunWithoutIterations(Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.RunInternal(Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)
+			</errormessage>
 			<activity
 				result="Success"
-				duration="22.17s"
-				durationms="22171"
+				duration="7.6m"
+				durationms="455380"
 				type="test-case"
-				rid="1ac730dab04b89d8"
-				totalerrorcount="0"
+				rid="8564eada2af46d0"
+				totalerrorcount="1"
 				totalwarningcount="0"
 				totalsuccesstestcasecount="1"
 				totalfailedtestcasecount="0"
 				totalblockedtestcasecount="0"
-				childsuccesscount="3"
+				childsuccesscount="2"
 				childfailedcount="0"
 				childblockedcount="0"
 				totalsuccesscount="3"
@@ -95,12 +107,25 @@
 				iteration="1"
 				activity-exectype="execute"
 				conditionstate="none">
+				<errormessage>
+					An internal error occurred while executing the smart folder. System.Threading.ThreadAbortException: Thread was being aborted.
+   at Ranorex.Core.Testing.TestModuleLeaf.Run(DataContext parentDataContext, Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.RunChildren(IEnumerable`1 entries, TestResult overallResult, Boolean&amp; childSkip, Boolean&amp; tearDownPending)
+   at Ranorex.Core.Testing.TestCaseNode.RunChildren(Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.&lt;&gt;c__DisplayClass85_0.&lt;RunIteration&gt;b__0(RetryInfo retry)
+   at Ranorex.Core.Testing.Retry.DoRetry(Func`2 operationToRetry)
+   at Ranorex.Core.Testing.Retry.Do(Func`2 operationToRetry)
+   at Ranorex.Core.Testing.TestCaseNode.RunIteration(Boolean childSkip, ActivityExecType executeType, Int32 iteration, IDictionary`2 dataRowOrParams)
+   at Ranorex.Core.Testing.TestCaseNode.RunWithIterations(Boolean childSkip, IterationExecType executeType)
+   at Ranorex.Core.Testing.TestCaseNode.RunInternal(Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)
+				</errormessage>
 				<activity
 					result="Success"
-					duration="19.6s"
-					durationms="19601"
+					duration="3.1m"
+					durationms="185572"
 					type="iteration-container"
-					rid="2164a9cc38ab8578"
+					rid="60abdbba361340"
 					totalerrorcount="0"
 					totalwarningcount="0"
 					totalsuccesstestcasecount="0"
@@ -122,10 +147,10 @@
 					dataiterationcount="1">
 					<activity
 						result="Success"
-						duration="19.6s"
-						durationms="19596"
+						duration="3.1m"
+						durationms="185564"
 						type="smart-folder"
-						rid="3367bb8602f9570"
+						rid="2acfa307cd5fe3f4"
 						totalerrorcount="0"
 						totalwarningcount="0"
 						totalsuccesstestcasecount="0"
@@ -168,10 +193,10 @@
 						</datarow>
 						<activity
 							result="Success"
-							duration="19.59s"
-							durationms="19593"
+							duration="3.1m"
+							durationms="185562"
 							type="setup-container"
-							rid="32f7999f18fb8da"
+							rid="d01b22939bd874"
 							totalerrorcount="0"
 							totalwarningcount="0"
 							totalsuccesstestcasecount="0"
@@ -186,10 +211,10 @@
 							totalmaintenancemodecount="0">
 							<activity
 								result="Success"
-								duration="19.57s"
-								durationms="19566"
+								duration="1.9m"
+								durationms="111316"
 								type="test-module"
-								rid="17cf03cd40c92d59"
+								rid="a86ca793cb8ba2b"
 								totalerrorcount="0"
 								totalwarningcount="0"
 								totalsuccesstestcasecount="0"
@@ -228,10 +253,10 @@
 									</varbinding>
 								</varbindings>
 								<item
-									timeRelativeToTestSuiteStartTime="00:00.083"
-									timeRelativeToTestModuleStartTime="00:00.014"
-									timeWallClock="14:28:23"
-									time="00:00.083"
+									timeRelativeToTestSuiteStartTime="01:22.683"
+									timeRelativeToTestModuleStartTime="00:08.365"
+									timeWallClock="15:31:24"
+									time="01:22.683"
 									level="Info"
 									category="Data">
 									<message>
@@ -242,10 +267,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:00.157"
-									timeRelativeToTestModuleStartTime="00:00.088"
-									timeWallClock="14:28:23"
-									time="00:00.157"
+									timeRelativeToTestSuiteStartTime="02:24.634"
+									timeRelativeToTestModuleStartTime="01:10.317"
+									timeWallClock="15:32:26"
+									time="02:24.634"
 									level="Info"
 									category="Application">
 									<message>
@@ -259,10 +284,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:00.545"
-									timeRelativeToTestModuleStartTime="00:00.476"
-									timeWallClock="14:28:23"
-									time="00:00.545"
+									timeRelativeToTestSuiteStartTime="02:34.666"
+									timeRelativeToTestModuleStartTime="01:20.349"
+									timeWallClock="15:32:36"
+									time="02:34.666"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -282,10 +307,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.065"
-									timeRelativeToTestModuleStartTime="00:15.996"
-									timeWallClock="14:28:39"
-									time="00:16.065"
+									timeRelativeToTestSuiteStartTime="02:48.928"
+									timeRelativeToTestModuleStartTime="01:34.610"
+									timeWallClock="15:32:51"
+									time="02:48.928"
 									level="Info"
 									category="Section">
 									<message>
@@ -299,10 +324,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.095"
-									timeRelativeToTestModuleStartTime="00:16.026"
-									timeWallClock="14:28:39"
-									time="00:16.095"
+									timeRelativeToTestSuiteStartTime="02:49.852"
+									timeRelativeToTestModuleStartTime="01:35.534"
+									timeWallClock="15:32:52"
+									time="02:49.852"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -322,10 +347,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.565"
-									timeRelativeToTestModuleStartTime="00:16.497"
-									timeWallClock="14:28:39"
-									time="00:16.565"
+									timeRelativeToTestSuiteStartTime="02:53.276"
+									timeRelativeToTestModuleStartTime="01:38.958"
+									timeWallClock="15:32:55"
+									time="02:53.276"
 									level="Info"
 									category="Validation">
 									<message>
@@ -345,10 +370,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.649"
-									timeRelativeToTestModuleStartTime="00:16.580"
-									timeWallClock="14:28:39"
-									time="00:16.649"
+									timeRelativeToTestSuiteStartTime="02:53.904"
+									timeRelativeToTestModuleStartTime="01:39.586"
+									timeWallClock="15:32:56"
+									time="02:53.904"
 									level="Success"
 									category="Validation">
 									<message>
@@ -368,10 +393,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:16.782"
-									timeRelativeToTestModuleStartTime="00:16.713"
-									timeWallClock="14:28:40"
-									time="00:16.782"
+									timeRelativeToTestSuiteStartTime="02:54.932"
+									timeRelativeToTestModuleStartTime="01:40.614"
+									timeWallClock="15:32:57"
+									time="02:54.932"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -391,10 +416,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:17.266"
-									timeRelativeToTestModuleStartTime="00:17.197"
-									timeWallClock="14:28:40"
-									time="00:17.266"
+									timeRelativeToTestSuiteStartTime="02:56.362"
+									timeRelativeToTestModuleStartTime="01:42.044"
+									timeWallClock="15:32:58"
+									time="02:56.362"
 									level="Info"
 									category="Validation">
 									<message>
@@ -414,10 +439,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:17.335"
-									timeRelativeToTestModuleStartTime="00:17.267"
-									timeWallClock="14:28:40"
-									time="00:17.335"
+									timeRelativeToTestSuiteStartTime="02:56.739"
+									timeRelativeToTestModuleStartTime="01:42.422"
+									timeWallClock="15:32:59"
+									time="02:56.739"
 									level="Success"
 									category="Validation">
 									<message>
@@ -437,10 +462,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:17.463"
-									timeRelativeToTestModuleStartTime="00:17.394"
-									timeWallClock="14:28:40"
-									time="00:17.463"
+									timeRelativeToTestSuiteStartTime="02:57.375"
+									timeRelativeToTestModuleStartTime="01:43.057"
+									timeWallClock="15:32:59"
+									time="02:57.375"
 									level="Info"
 									category="Validation">
 									<message>
@@ -460,10 +485,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:17.529"
-									timeRelativeToTestModuleStartTime="00:17.460"
-									timeWallClock="14:28:40"
-									time="00:17.529"
+									timeRelativeToTestSuiteStartTime="02:57.671"
+									timeRelativeToTestModuleStartTime="01:43.353"
+									timeWallClock="15:32:59"
+									time="02:57.671"
 									level="Success"
 									category="Validation">
 									<message>
@@ -483,10 +508,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:17.664"
-									timeRelativeToTestModuleStartTime="00:17.595"
-									timeWallClock="14:28:40"
-									time="00:17.664"
+									timeRelativeToTestSuiteStartTime="02:58.287"
+									timeRelativeToTestModuleStartTime="01:43.969"
+									timeWallClock="15:33:00"
+									time="02:58.287"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -506,10 +531,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:18.049"
-									timeRelativeToTestModuleStartTime="00:17.980"
-									timeWallClock="14:28:41"
-									time="00:18.049"
+									timeRelativeToTestSuiteStartTime="03:00.069"
+									timeRelativeToTestModuleStartTime="01:45.752"
+									timeWallClock="15:33:02"
+									time="03:00.069"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -529,10 +554,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:18.432"
-									timeRelativeToTestModuleStartTime="00:18.363"
-									timeWallClock="14:28:41"
-									time="00:18.432"
+									timeRelativeToTestSuiteStartTime="03:01.529"
+									timeRelativeToTestModuleStartTime="01:47.211"
+									timeWallClock="15:33:03"
+									time="03:01.529"
 									level="Info"
 									category="Mouse">
 									<message>
@@ -552,10 +577,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:18.948"
-									timeRelativeToTestModuleStartTime="00:18.879"
-									timeWallClock="14:28:42"
-									time="00:18.948"
+									timeRelativeToTestSuiteStartTime="03:03.482"
+									timeRelativeToTestModuleStartTime="01:49.164"
+									timeWallClock="15:33:05"
+									time="03:03.482"
 									level="Info"
 									category="Section">
 									<message>
@@ -569,10 +594,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:18.984"
-									timeRelativeToTestModuleStartTime="00:18.915"
-									timeWallClock="14:28:42"
-									time="00:18.984"
+									timeRelativeToTestSuiteStartTime="03:03.818"
+									timeRelativeToTestModuleStartTime="01:49.500"
+									timeWallClock="15:33:06"
+									time="03:03.818"
 									level="Info"
 									category="Validation">
 									<message>
@@ -592,10 +617,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:19.467"
-									timeRelativeToTestModuleStartTime="00:19.398"
-									timeWallClock="14:28:42"
-									time="00:19.467"
+									timeRelativeToTestSuiteStartTime="03:04.170"
+									timeRelativeToTestModuleStartTime="01:49.852"
+									timeWallClock="15:33:06"
+									time="03:04.170"
 									level="Success"
 									category="Validation">
 									<message>
@@ -615,10 +640,10 @@
 									</metainfo>
 								</item>
 								<item
-									timeRelativeToTestSuiteStartTime="00:19.598"
-									timeRelativeToTestModuleStartTime="00:19.529"
-									timeWallClock="14:28:42"
-									time="00:19.598"
+									timeRelativeToTestSuiteStartTime="03:05.147"
+									timeRelativeToTestModuleStartTime="01:50.830"
+									timeWallClock="15:33:07"
+									time="03:05.147"
 									level="Success"
 									category="User">
 									<message>
@@ -637,11 +662,11 @@
 				</activity>
 				<activity
 					result="Success"
-					duration="2.34s"
-					durationms="2339"
+					duration="4.5m"
+					durationms="269752"
 					type="iteration-container"
-					rid="6f26950ca47f372"
-					totalerrorcount="0"
+					rid="3760747f7da7d704"
+					totalerrorcount="1"
 					totalwarningcount="0"
 					totalsuccesstestcasecount="0"
 					totalfailedtestcasecount="0"
@@ -653,35 +678,35 @@
 					totalfailedcount="0"
 					totalblockedcount="0"
 					totalmaintenancemodecount="0"
-					displayName="Server_RightClick_QueryAnalyzer"
-					headertext="Server_RightClick_QueryAnalyzer"
+					displayName="Server_Registration"
+					headertext="Server_Registration"
 					testentry-activity-type="smartfolder"
 					iteration-exectype="dataiteration"
-					testcontainerid="59887a12-d7f1-4abd-aabd-01c1b4e0cf39"
+					testcontainerid="0ffd4a5b-62e8-445f-8ca8-3d4a6d32203e"
 					datasource="ServerInfoConnector"
 					dataiterationcount="1">
 					<activity
 						result="Success"
-						duration="2.34s"
-						durationms="2338"
+						duration="4.5m"
+						durationms="269750"
 						type="smart-folder"
-						rid="119f8394120a1dc"
-						totalerrorcount="0"
+						rid="dfd46f09ca00b6"
+						totalerrorcount="1"
 						totalwarningcount="0"
 						totalsuccesstestcasecount="0"
 						totalfailedtestcasecount="0"
 						totalblockedtestcasecount="0"
-						childsuccesscount="1"
-						childfailedcount="0"
+						childsuccesscount="0"
+						childfailedcount="1"
 						childblockedcount="0"
 						totalsuccesscount="1"
 						totalfailedcount="0"
 						totalblockedcount="0"
 						totalmaintenancemodecount="0"
-						testcontainername="Server_RightClick_QueryAnalyzer"
-						testcontainerid="59887a12-d7f1-4abd-aabd-01c1b4e0cf39"
-						headertext="Server_RightClick_QueryAnalyzer"
-						displayName="Server_RightClick_QueryAnalyzer"
+						testcontainername="Server_Registration"
+						testcontainerid="0ffd4a5b-62e8-445f-8ca8-3d4a6d32203e"
+						headertext="Server_Registration"
+						displayName="Server_Registration"
 						iteration="1"
 						activity-exectype="dataiteration"
 						conditionstate="none">
@@ -740,12 +765,12 @@
 							</field>
 						</datarow>
 						<activity
-							result="Success"
-							duration="2.34s"
-							durationms="2337"
+							result="Failed"
+							duration="79ms"
+							durationms="79"
 							type="test-module"
-							rid="78e9d06bd862148"
-							totalerrorcount="0"
+							rid="1f3b5573978a04c3"
+							totalerrorcount="1"
 							totalwarningcount="0"
 							totalsuccesstestcasecount="0"
 							totalfailedtestcasecount="0"
@@ -757,193 +782,80 @@
 							totalfailedcount="0"
 							totalblockedcount="0"
 							totalmaintenancemodecount="0"
-							modulename="StartQueryAnalyzer"
-							displayName="StartQueryAnalyzer"
-							moduleid="eb21e499-4bc5-42d1-9e5d-d4927a656b01"
+							modulename="RegisteredServer"
+							displayName="RegisteredServer"
+							moduleid="1c501cb7-af18-4f5f-89c3-c281529104f9"
 							moduletype="UserCode"
 							iteration="1"
-							activity-exectype="execute"
+							activity-exectype="runiteration"
 							testentry-activity-type="testmodule">
-							<varbindings>
-								<varbinding
-									name="ServerNameVar"
-									value="SqlServerNew">
-								</varbinding>
-								<varbinding
-									name="logNameVar"
-									value="testab">
-								</varbinding>
-							</varbindings>
+							<errormessage>
+								Thread was being aborted.
+							</errormessage>
 							<item
-								timeRelativeToTestSuiteStartTime="00:19.645"
-								timeRelativeToTestModuleStartTime="00:00.001"
-								timeWallClock="14:28:42"
-								time="00:19.645"
-								level="Info"
-								category="Data">
+								timeRelativeToTestSuiteStartTime="07:35.326"
+								timeRelativeToTestModuleStartTime="00:00.012"
+								timeWallClock="15:37:37"
+								time="07:35.326"
+								level="Error"
+								category="Module">
 								<message>
-									Current variable values:<br/>$ServerNameVar = 'SqlServerNew', $logNameVar = 'testab'
+									Thread was being aborted.
 								</message>
 								<metainfo
-									loglvl="Info">
-								</metainfo>
-							</item>
-							<item
-								timeRelativeToTestSuiteStartTime="00:19.677"
-								timeRelativeToTestModuleStartTime="00:00.034"
-								timeWallClock="14:28:42"
-								time="00:19.677"
-								level="Info"
-								category="QueryWindowIndex">
-								<message>
-									1
-								</message>
-								<metainfo
-									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\StartQueryAnalyzer.cs"
-									codeline="73"
-									loglvl="Info">
-								</metainfo>
-							</item>
-							<item
-								timeRelativeToTestSuiteStartTime="00:19.758"
-								timeRelativeToTestModuleStartTime="00:00.114"
-								timeWallClock="14:28:43"
-								time="00:19.758"
-								level="Info"
-								category="Validation">
-								<message>
-									Open Query analyzer process starts!!
-								</message>
-								<metainfo
-									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\StartQueryAnalyzer.cs"
-									codeline="79"
-									loglvl="Info">
-								</metainfo>
-							</item>
-							<item
-								timeRelativeToTestSuiteStartTime="00:21.919"
-								timeRelativeToTestModuleStartTime="00:02.276"
-								timeWallClock="14:28:45"
-								time="00:21.919"
-								level="Success"
-								category="Validation">
-								<message>
-									Query analyzer Opened!!
-								</message>
-								<metainfo
-									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\StartQueryAnalyzer.cs"
-									codeline="97"
-									loglvl="Success">
-								</metainfo>
-							</item>
-							<item
-								timeRelativeToTestSuiteStartTime="00:21.951"
-								timeRelativeToTestModuleStartTime="00:02.308"
-								timeWallClock="14:28:45"
-								time="00:21.951"
-								level="Info"
-								category="QueryWindowIndex">
-								<message>
-									2
-								</message>
-								<metainfo
-									codefile="f:\Idera_Automation\automation_idera\ADS_start\UserCodeModules\StartQueryAnalyzer.cs"
-									codeline="104"
-									loglvl="Info">
+									stacktrace="   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean&amp; canBeCached, RuntimeMethodHandleInternal&amp; ctor, Boolean&amp; bNeedSecurityCheck)&#13;&#10;   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark&amp; stackMark)&#13;&#10;   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark&amp; stackMark)&#13;&#10;   at System.Activator.CreateInstance(Type type, Boolean nonPublic)&#13;&#10;   at System.Activator.CreateInstance(Type type)&#13;&#10;   at Ranorex.Core.Testing.TestModuleActivator.DefaultFactoryMethod.CreateFactory()&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.InitializeTestModuleInstance(TestModuleLeaf runTargetLeaf)&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.GetTestModuleInstance(TestModuleLeaf runTargetLeaf)&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.Run(DataContext parentDataContext, Boolean childSkip)"
+									loglvl="Error">
 								</metainfo>
 							</item>
 						</activity>
 					</activity>
 				</activity>
-				<activity
-					result="Success"
-					duration="218ms"
-					durationms="218"
-					type="teardown-container"
-					rid="b931a27a94c26f4"
-					totalerrorcount="0"
-					totalwarningcount="0"
-					totalsuccesstestcasecount="0"
-					totalfailedtestcasecount="0"
-					totalblockedtestcasecount="0"
-					childsuccesscount="1"
-					childfailedcount="0"
-					childblockedcount="0"
-					totalsuccesscount="0"
-					totalfailedcount="0"
-					totalblockedcount="0"
-					totalmaintenancemodecount="0">
-					<activity
-						result="Success"
-						duration="216ms"
-						durationms="216"
-						type="test-module"
-						rid="1606c14ba638df14"
-						totalerrorcount="0"
-						totalwarningcount="0"
-						totalsuccesstestcasecount="0"
-						totalfailedtestcasecount="0"
-						totalblockedtestcasecount="0"
-						childsuccesscount="0"
-						childfailedcount="0"
-						childblockedcount="0"
-						totalsuccesscount="0"
-						totalfailedcount="0"
-						totalblockedcount="0"
-						totalmaintenancemodecount="0"
-						modulename="CloseAUT"
-						displayName="CloseAUT"
-						moduleid="79e2f5ed-08a7-4611-93a8-a4996e86b9bb"
-						moduletype="Recording"
-						iteration="1"
-						activity-exectype="execute"
-						testentry-activity-type="testmodule">
-						<varbindings>
-							<varbinding
-								name="CloseAutProcessIDVar"
-								value="">
-							</varbinding>
-						</varbindings>
-						<item
-							timeRelativeToTestSuiteStartTime="00:21.987"
-							timeRelativeToTestModuleStartTime="00:00.002"
-							timeWallClock="14:28:45"
-							time="00:21.987"
-							level="Info"
-							category="Data">
-							<message>
-								Current variable values:<br/>$CloseAutProcessIDVar = ''
-							</message>
-							<metainfo
-								loglvl="Info">
-							</metainfo>
-						</item>
-						<item
-							timeRelativeToTestSuiteStartTime="00:22.010"
-							timeRelativeToTestModuleStartTime="00:00.025"
-							timeWallClock="14:28:45"
-							time="00:22.010"
-							level="Info"
-							category="Application">
-							<message>
-								Killing application containing item 'AquaDataStudioEvaluation.AquaDataStudioEvaluation'.
-							</message>
-							<metainfo
-								type="repoitem"
-								path="/form[@title>'Aqua Data Studio - [Evalu']/titlebar[@accessiblerole='TitleBar']"
-								itempath="titlebar[@accessiblerole='TitleBar']"
-								fullname="ADS_startRepository.AquaDataStudioEvaluation.AquaDataStudioEvaluation"
-								id="905a42f98c434f69bf975202952990bf"
-								timeout="60000"
-								codefile="f:\Idera_Automation\automation_idera\ADS_start\CloseAUT.cs"
-								codeline="99"
-								itemindex="1"
-								loglvl="Info">
-							</metainfo>
-						</item>
-					</activity>
-				</activity>
 			</activity>
 		</activity>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="08:27.021"
+			timeWallClock="15:37:37"
+			time="00:00.000"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)&#13;&#10;   at Ranorex.Core.Testing.TestSuite.Run(String runConfigName, String runLabel, Dictionary`2 parameters)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.TryRunTestSuite(RunParams rp, TestSuite testSuite)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.&lt;>c__DisplayClass13_1.&lt;RunInternal>b__5()&#13;&#10;   at Ranorex.Common.Types.OptCombinators.UnwrapOrElse[T](Opt`1 self, Func`1 generator)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="08:33.880"
+			timeWallClock="15:37:44"
+			time="00:00.000"
+			level="Error"
+			category="User">
+			<message>
+				Unexpected exception occurred: System.Threading.ThreadAbortException: Thread was being aborted.<br/>   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)<br/>   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams rp)<br/>   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String testSuiteXml, RunParams rp)<br/>   at Ranorex.Core.Testing.TestSuiteRunner.Run(Type containerType, String cmdLineArgs, String testSuiteXml)<br/>   at Ranorex.Core.Testing.TestSuiteRunner.Run(Type containerType, String cmdLineArgs)<br/>   at ADS_start.Program.Main(String[] args) in f:\Idera_Automation\automation_idera\ADS_start\Program.cs:line 39
+			</message>
+			<metainfo
+				codefile="f:\Idera_Automation\automation_idera\ADS_start\Program.cs"
+				codeline="43"
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.000"
+			timeRelativeToTestModuleStartTime="08:50.089"
+			timeWallClock="15:38:00"
+			time="00:00.000"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
 	</activity>
 </report>
